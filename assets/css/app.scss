@@ -1,0 +1,328 @@
+---
+
+---
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:700&display=swap');
+
+$black: #000000;
+$white:#FFFFFF;
+$background-color:#415946;
+$body-type: 'Cormorant Garamond', serif;
+
+
+$line-height-global:1.4;
+$header-size:36px;
+$body-size:18px;
+
+$line-global:20px;
+
+
+
+
+h1 {
+    font-size:$header-size;
+}
+
+
+body,
+h1, h2 {
+    margin:0;
+}
+
+a {
+    text-decoration:none;
+
+}
+header {
+    width:100%;
+    position: absolute;
+    display:flex;
+    z-index:2;
+    align-items:center;
+    font-family:$body-type;
+
+   a { 
+       color:$white;
+   }
+    h1 {
+        margin:$line-global;
+
+    }
+
+    nav {
+
+        margin:$line-global;
+        position: absolute;
+        right:0;
+        font-size:$body-size;
+      }
+
+    nav a {
+        margin-left:$line-global;
+        padding-bottom:$line-global/4;
+    }
+}
+
+    nav a:hover {
+        border-bottom: solid 2px #FFB444;
+    }
+.hero {
+    max-width:100%;
+    iframe {
+        width:100%;
+        height:100vh;
+        z-index:1;
+    }
+}
+
+.journal {
+    max-width:100%;
+    position:relative;
+
+    .heading {
+        width:100%;
+        font-size:$header-size;
+        text-align: center;
+        padding-top:$line-global*4;
+        padding-bottom:$line-global*4;
+    
+    }
+  
+    .older-posts {
+        display:none;
+        position: absolute;
+        right: $line-global*4;
+        bottom:-$line-global*10;
+        a {
+            color:$black;
+            border-bottom: 2px solid #FFB444;
+
+        }        
+        }
+    
+}
+
+.journal-container {
+    max-width:1200px;
+    padding-top:$line-global*4;
+    position:relative;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(1, 1fr 1fr);
+    grid-row-gap:$line-global*10;
+    margin: 0 auto $line-global*10 auto;
+    .images {
+        width:300px;
+        height:300px;
+        position: relative;
+        z-index:1;
+        justify-self:center;
+        padding-bottom:20px;
+        
+
+
+        img {
+            max-width:100%;
+            max-height:100%;
+
+        }
+    }
+
+    .image-background {
+        background-color:$background-color;
+        width:300px;
+        height:300px;
+        top:-$line-global*2;
+        right:$line-global*2;
+        z-index:-1;
+        position: absolute;
+
+
+    }
+    .description {
+        width:300px;
+        padding-top:$line-global;
+        line-height:$line-height-global;
+        
+        h2 {
+            color:$black;
+            img {
+                padding-left:10px;
+                width:15px;
+                height:15px;
+            }
+        }
+        
+        
+    }
+   
+}
+
+// About Section 
+.about {
+    max-width:100%;
+    max-height:100vh;
+    position:relative;
+    
+    .about-container {
+        display:flex;
+        position: relative;
+        right:0;
+        width:100%;
+        height:100vh;
+
+        .about-image {
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            position: relative;
+            z-index:1;
+            
+            img{
+                width:400px;
+                position: absolute;
+                left:100px;            }
+            
+        }
+        .about-text {
+            width:75%;
+            height:100vh;
+            position: absolute;
+            background-color:$background-color;
+            right:0;
+            display:flex;
+            justify-content: space-around;
+            align-items:center;
+            color:$white;
+            font-family: $body-type;
+            font-size:$body-size;
+            div{
+                width:350px;
+                h2 {
+                    margin-bottom:$line-global;
+                }
+
+            }
+
+        }
+    }
+
+}
+
+
+// Image Slideshow
+
+.slideshow {
+    max-width:100vw;
+    position:relative;
+}
+.image-slideshow {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 75vh;
+  }
+  
+  .holder {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10000vw;
+    height: 75vh;
+    transition: left 2s ease-in-out;
+  }
+  
+  .holder div {
+    float: left;
+    width: 100vw;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .slide-1 {
+    background-image: url(/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-093.jpg);
+  }
+  
+  .slide-2 {
+    background-image: url(/assets/images/Nicollette-and-Mikey-014.jpg);
+  }
+  
+  .slide-3 {
+    background-image: url(/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-107.jpg);
+  }
+  
+  .slide-4 {
+    background-image: url(/assets/images/Nicollette-and-Mikey-024.jpg);
+  }
+
+
+.increment-menu {
+width:100%;
+bottom:$line-global;
+position: absolute;
+display:flex;
+justify-content: center;
+.increment {
+    height:$line-global;
+    width:$line-global;
+    border-radius: 20px;
+    background-color:$white;
+    margin-left:10px;
+
+}
+
+
+}
+
+// Price Section 
+
+.prices {
+    max-width:100%;
+    max-height:100%;
+    margin-left:$line-global*2;
+    margin-right:$line-global*2;
+    position:relative;
+
+    h2 {
+        text-align:center;
+        margin-top:$line-global*4;
+    }
+  
+    .price-background {
+        width:100%;
+        top:250px;
+        height:300px;
+        background-color:$background-color;
+        position: absolute;
+        z-index:-1;
+    }
+
+    .price-images {
+        margin-top:$line-global*4;
+        display:grid;
+        max-width:1200px;
+        margin-left:auto;
+        margin-right:auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows:(300px);
+        grid-column-gap: $line-global;
+        img {
+            justify-self:center;
+
+            max-width:300px;
+
+        }
+}
+.price-sheet {
+    max-width:100%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:(300px);
+    grid-column-gap: $line-global*2;
+    background-color:$background-color;
+
+}
+}

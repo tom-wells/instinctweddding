@@ -1,0 +1,75 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+title: Instinct Wedding
+---
+
+
+<html>
+<head>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+    <section class="hero">
+      <iframe src="https://player.vimeo.com/video/309471805" width="100%" height="100%" muted frameborder="0" autoplay="1"></iframe>
+    </section>
+
+
+{% include journal.html %}
+
+{% include about.html %}
+
+{% include slideshow.html %}
+
+<section class="prices">
+  
+  <h2>Prices</h2>
+
+  <div class="price-images">
+    <img src="/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-101.jpg">
+    <img src="/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-101.jpg">
+    <img src="/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-101.jpg">
+  </div>
+<div class="price-background"></div>
+  <div class="price-sheet">
+    <div class="package-titles">
+        <h3>photography</h3>
+        <h3>videography</h3>
+        <h3>Premium Collection</h3>
+    </div>
+    
+
+  </div>
+</section>
+
+<section class="awards">
+
+</section>
+
+<section class="contact-form">
+
+</section>
+
+<footer>
+  
+</footer>
+
+
+</section>
+
+
+</body>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</html>
