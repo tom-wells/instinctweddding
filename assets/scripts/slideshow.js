@@ -1,3 +1,6 @@
+
+
+
 var currentSlide = 0
 
 var totalSlides = $('.holder div').length
