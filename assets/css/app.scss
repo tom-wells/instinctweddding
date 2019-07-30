@@ -10,7 +10,7 @@ $black: #000000;
 $white:#FFFFFF;
 $background-color:#415946;
 $body-type: 'Open Sans', sans-serif;
-$header-type:'Cormorant Garamond', serif;
+$header-type:'Adobe Garamond Pro', serif;
 
  
 
@@ -47,15 +47,26 @@ a {
 
 }
 header {
+    
     width:100%;
-    position: absolute;
+    position: fixed;
     display:flex;
+    justify-content: center;
     z-index:2;
     align-items:center;
-    font-family:$body-type;
+    font-family:$header-type;
+    text-transform:uppercase;
+    background-color:$white;
+    overflow: hidden;
+    transition:all 1s ease;
+    &.hidden {
+        transform: translateY(-100%);
+    }
+
+    
 
    a { 
-       color:$white;
+       color:$black;
    }
     h1 {
         margin:$line-global;
@@ -63,48 +74,64 @@ header {
     }
 
     nav {
-
+        display:flex;
+        width: 840px;
         margin:$line-global;
-        position: absolute;
-        right:0;
+        justify-content:space-between; 
+        align-items:center;     
         font-size:$body-size;
-      }
+        img {
+            width:250px;
+            margin-left:$line-global*2;
+            margin-right:$line-global*2;
 
+        }
+      }
+      
     nav a {
         margin-left:$line-global;
+        position:relative;
+        margin-top:$line-global*3+5;
+        padding-top:2px;
     
 
-    &:hover {
-        border-bottom: solid 2px #FFB444;
-    }
-}
+   
 }
 
+
+
+}
 
    
 .hero {
-    height:100%;
-    iframe {
-        width:100%;
-        height:100vh;
-        z-index:1;
-    top:0;
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;        
+    iframe{
+        position: absolute;
+	top: 20%;
+	left: 0;
+	width: 100%;
+	height: 100%;
     
     }
 }
+
 
 // Journal Section
 
 .journal {
     max-width:100%;
     position:relative;
+    margin-top:$line-global*9;
 
     .heading {
+        position:relative;
         width:100%;
         font-size:$header-size;
         text-align: center;
-        padding-top:$line-global*4;
-        padding-bottom:$line-global*4;
+      
     
     }
   
