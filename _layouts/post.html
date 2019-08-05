@@ -1,0 +1,22 @@
+---
+
+layout: default
+
+---
+
+{% include post-container.html %}
+
+<div class="post-nav">
+   
+   
+    {% if page.previous.url %}
+    <a class="prev-url" href="{{page.previous.url}}"><h3>Previous Post</h3></a>
+{% endif %} 
+{% if page.next.url %}
+    <a class="next-url" href="{{page.next.url}}"><h3>Next Post</h3></a>
+{% endif %}
+
+ </div>
+
+ {% include footer.html %}
+   
