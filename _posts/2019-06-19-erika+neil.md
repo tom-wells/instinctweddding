@@ -1,11 +1,7 @@
 ---
 img : "/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-101.jpg"
 title: Erika & Neil Engagement Session in the moody Camber Sands and Rye
-excerpt: Some days are just good days. One of days Good Days was a day when I got a pleasure to meet Erika and Neil for their engagement session in Rye.
-
 ---
-
-
 
 Some days are just good days.
 
@@ -20,11 +16,6 @@ From then on I didn't even need any of my posing 'prompts', everything went so n
 Just look at this couple <3 
 
 ![](/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-061.jpg)
-![](/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-063.jpg)
-![](/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-087.jpg)
 ![](/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-093.jpg)
-![](/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-095.jpg)
 ![](/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-097.jpg)
 ![](/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-107.jpg)
-![](/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-108.jpg)
-![](/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-109.jpg)

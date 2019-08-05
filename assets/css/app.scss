@@ -4,7 +4,6 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:700&display=swap');
 
 $black: #000000;
 $white:#FFFFFF;
@@ -16,6 +15,7 @@ $header-type:'Adobe Garamond Pro', serif;
 
 $line-height-global:1.4;
 $header-size:36px;
+$header-weight:100;
 $sub-header-size:24px;
 $body-size:14px;
 
@@ -26,10 +26,14 @@ $line-global:20px;
 
 h1, h2 {
     font-size:$header-size;
+    font-weight: $header-weight;
+
 }
 
 h3{
     font-size:$sub-header-size;
+    font-family:$header-type;
+    font-weight: $header-weight;
 }
 
 body,
@@ -44,6 +48,7 @@ ul {
 
 a {
     text-decoration:none;
+   
 
 }
 header {
@@ -53,6 +58,7 @@ header {
     display:flex;
     justify-content: center;
     z-index:2;
+    top:0;
     align-items:center;
     font-family:$header-type;
     text-transform:uppercase;
@@ -73,6 +79,10 @@ header {
         font-family:$header-type;
     }
 
+    .home:hover {
+        border-bottom:none;
+    }
+
     nav {
         display:flex;
         width: 840px;
@@ -80,10 +90,10 @@ header {
         justify-content:space-between; 
         align-items:center;     
         font-size:$body-size;
+       
         img {
             width:250px;
-            margin-left:$line-global*2;
-            margin-right:$line-global*2;
+          
 
         }
       }
@@ -91,8 +101,10 @@ header {
     nav a {
         margin-left:$line-global;
         position:relative;
-        margin-top:$line-global*3+5;
-        padding-top:2px;
+        padding-bottom:5px;        
+        &:hover {
+            border-bottom: 1px solid black;
+        }
     
 
    
@@ -544,16 +556,14 @@ footer {
     position: relative;
    
     a {
+        width:100%;
         display:flex;
         flex-direction:column;
         text-decoration:none;
         color:$white;
         font-family:$body-type;
         padding-bottom:$line-global/2;
-        &:hover {
-            color:#FFB444;
-
-        }
+        
 
        
     }
@@ -578,4 +588,69 @@ footer {
     }
 
 }
+
+// Post Styles 
+
+
+.post-container {
+    display:flex;
+    max-width:100%;
+    justify-content: center;
+    margin:$line-global*10 auto $line-global*2 auto;
+    padding-left:$line-global*2;
+    padding-right:$line-global*2;
+    
+    .post-content {
+        width:720px;
+        height:100%;
+        font-family:$body-type;
+        font-size:$body-size;
+       
+        
+        h3 {
+            text-align:center;
+            margin-top:$line-global*2;
+            margin-bottom:$line-global*2;
+
+        }
+        
+        h2 {
+            max-width:600px;
+            text-align:center;
+            font-family:$header-type;
+            font-size:$header-size;
+            margin-bottom:$line-global*2;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        p {
+            max-width:720px;
+            line-height:$line-height-global;
+            
+    
+        }
+            img {
+                max-width:100%;
+                padding:$line-global 0 $line-global 0;
+            }
+        }
+
+   
+    }
+   
+
+ .post-nav {
+    display:flex;
+    max-width:100%;
+    justify-content: space-between;
+    .next,
+    .prev {
+        
+        cursor:pointer;
+        padding:$line-global*2;
+      
+    }
+    
+}
+    
 

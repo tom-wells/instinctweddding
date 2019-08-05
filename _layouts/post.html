@@ -1,22 +1,28 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Instinct Wedding | Wedding Photography in Kent </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/assets/css/blog.css">
-    </head>
+---
 
-    <body>
-        
-        {% include header.html %}
+layout: default
 
-        
-        
-       <div class="post-container">
-         <h2>{{ page.title }}</h2>
-           <div>
-                {{ content }}
-           </div>
-       </div>
-    </body>
-</html>
+---
+<div class="post-container">
+<div class="post-content">
+  <h2> {{page.title}} </h2>
+  {{content}}
+ </div>
+
+ 
+ 
+</div>
+
+<div class="post-nav">
+   
+   
+    {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}"><h3>Previous</h3></a>
+{% endif %} 
+{% if page.next.url %}
+    <a class="next" href="{{page.next.url}}"><h3>Next</h3></a>
+{% endif %}
+
+ </div>
+
+   

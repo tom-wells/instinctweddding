@@ -16,8 +16,6 @@ Even though, it was a cloudy late Spring evening, Nicollette and Mikey's smiles 
 
 ![](/assets/images/Nicollette-and-Mikey-024.jpg)
 ![](/assets/images/Nicollette-and-Mikey-004.jpg)
-![](/assets/images/Nicollette-and-Mikey-018.jpg)
-![](/assets/images/Nicollette-and-Mikey-019.jpg)
 ![](/assets/images/Nicollette-and-Mikey-027.jpg)
 ![](/assets/images/Nicollette-and-Mikey-014.jpg)
 
