@@ -51,3 +51,12 @@
     window.addEventListener('scroll', checkScroll);
   
   })();
+
+
+
+  const pixelTag = document.querySelector ('div.pixels')
+
+  document.addEventListener('scroll', function() {
+    const pixels = window.pageYOffset
+
+  pixelTag.innnerHTML = pixels    })
