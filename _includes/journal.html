@@ -1,18 +1,28 @@
 <section id="journal" class="journal">
-        <h2 class="heading">JOURNAL</h2>
+    <h2> Journal </h2>
+
           <div class="journal-container">   
-    
-          {% for post in site.posts %}
+          {% for post in site.posts limit:3 %}
             <div class="images">
-                <a href="{{ post.url }}"> 
+                <div class="image-background"><a href="{{ post.url }}"> 
+                    
                   <img src="{{post.img}}"/>
-                <div class="image-background"></div>
-              <div class="description">
-                <h3>{{ post.title }}<img src="assets/images/chevron.svg"></h3>
-                </a>
+
+                </div>
+              
+
+                
+
+
               </div>
-            </div>
+              <div class="description">
+              <h3>{{ post.title }}<img src="assets/images/chevron.svg"></h3>
+              <p>{{ post.excerpt}}</p>
+              </div>
+            </a>
+
           {%endfor%}
         </div>
-        <h2 class="older-posts"><a href="#">Older Posts</a></h2>
+        <h3 class="older-posts"><a href="/archive.html">View More</a></h3>
 </section>
+
