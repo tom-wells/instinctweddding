@@ -424,6 +424,9 @@ justify-content: center;
             padding-left:$line-global/2;
             padding-top:$line-global;
             font-family: $body-type;
+            ul {
+                padding:0;
+            }
             li {
                 line-height:$line-global*1.5;
 
@@ -774,3 +777,262 @@ footer {
     margin-bottom:$line-global*4;
     margin-top:$line-global*4;
 }
+// mobile Styles
+
+@media (max-width: 500px) {
+ header {
+     display:none;
+ }
+
+
+ .hero {
+    display:none; }
+// journal mobile
+ .journal {
+width:100%;
+display:flex;
+justify-content: center;   
+
+.older-posts {
+    display:block; 
+    bottom:0;
+left:0;   
+position:relative;
+padding:$line-global*2;
+}
+     .journal-container{
+         display:block;
+         margin-left:auto;
+         margin-right:auto;
+         padding-top:$line-global*2;
+    
+         .images {
+             width:240px;
+             height:240px;
+             padding-top:$line-global*2;
+             padding-bottom:$line-global;
+
+             .image-background {
+                 width:200px;
+                 height:200px;
+             }
+             img {
+                 width:200px;
+             }
+         }
+         .description {
+             width:240px;
+             h3 {
+                 width:240px;
+             }
+         }
+
+
+     }
+ }
+
+
+
+
+//about 
+
+.about {
+    display:block;
+    max-height:100%;
+
+    .about-container {
+        display:block;
+        height:100%;
+        position:relative;
+        width:100%;
+             .about-image {
+         position:relative;
+         display:block;
+         height:250px;
+         padding:0;
+         margin-left:auto;
+         margin-right:auto;
+         text-align:center;
+        
+
+         img {
+             position:relative;
+             max-width:200px;
+             border-radius:100%;
+             left:0;
+          
+         }
+     }  
+     .about-text {
+        height:100%;
+        position: relative;
+        background-color: #415946;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #FFFFFF;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        width:100%;
+        padding:0;
+     }
+
+     div {
+         width:200px;
+         padding:40px;
+     }
+    }
+}
+
+
+
+//prices 
+
+.prices {
+    height:100%;
+    margin-left:0;
+    margin-right:0;
+    .add-ons {
+        h2 {
+            padding-bottom:$line-global;
+        }
+        color:$black;
+        position:relative;
+        width:100%;
+
+}
+
+.add-on-prices {
+    grid-template-columns: 5fr 3fr;
+    li {
+        color:black;
+        position:relative;
+        display:block;
+    }
+}
+    
+    .price-background {
+        background-color:$white;
+        height:100%;
+        top:0;
+    .price-image-holder {
+        top:0;
+        position:relative;
+        height:100%;
+
+    div  {   
+        margin-left:$line-global/2;
+        margin-right:$line-global/2;
+        grid-template-columns:1fr;
+
+        
+    h3 {
+        text-align:center;
+        padding-bottom:$line-global;
+    }
+    ul {
+        display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+width: 100%;
+
+padding-left: 5px;
+    }
+
+     
+h3,li, {
+    color:$black;
+    }
+
+}
+}
+}
+}
+
+
+
+
+
+// awards {
+    .awards {
+        margin-bottom:$line-global*4;
+        .award-badges{
+            display:flex;
+            width:100%;
+            flex-direction:column;
+            align-items:center;
+            img {
+                padding:0 0 $line-global 0;
+                width:150px;
+            }
+        }
+       
+    }
+
+//contact 
+
+.contact {
+    display:block;
+    height:100%;
+
+    .contact-quote {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        h2 {
+            position: absolute;;
+            font-size:24px;
+            width:100px;
+            top:-10px;
+            left:20px;
+            text-align:left;
+            
+        }
+        img {
+        width:200px;
+        }
+    }
+    .contact-form {
+        input {
+            width:250px;
+        }
+        textarea {
+            width:250px;
+        }
+        .submit {
+            width:260px;
+           
+        }
+    }
+}
+
+
+// footer
+
+footer {
+    height:100%;
+    .media {
+        position:relative;
+        text-align:center;
+    }
+    .links-right{
+        display:block;
+        position: relative;
+        text-align:center;
+        nav.secondary-sections {
+            padding:0;
+            margin-top:$line-global*3;
+            text-align:center;
+        }
+        .main-titles {
+            display:block;
+        }
+    }
+    
+}
+}
+
