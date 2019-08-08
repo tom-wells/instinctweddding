@@ -114,7 +114,9 @@ header {
 
 
 }
-
+.mobile-hero {
+    display:none;
+}
    
 .hero {
     position: relative;
@@ -248,7 +250,9 @@ header {
     max-height:100vh;
     position:relative;
 
-
+ h2 {
+     display:none;
+ }
     
     .about-container {
         display:flex;
@@ -787,10 +791,44 @@ footer {
 
  .hero {
     display:none; }
+
+    .mobile-hero {
+        display:block;
+        height:100vh;
+        background-image:url(/assets/images/hero-photo.jpg);
+        background-position:center;
+        background-size:cover;
+
+        h1 {
+            color:$white;
+            
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%, -50%);
+            width:100%;
+            text-align:center;
+        }
+
+        .mobile-button{
+            position:absolute;
+            top:$line-global;
+            right:$line-global;
+            cursor:pointer;
+            div {
+                display:block;
+                height:5px;
+                width:40px;
+                margin-bottom:5px;
+                background-color:$white;
+            }
+        }
+    }
 // journal mobile
  .journal {
 width:100%;
 display:flex;
+margin-top:0;
 justify-content: center;   
 
 .older-posts {
@@ -799,6 +837,7 @@ justify-content: center;
 left:0;   
 position:relative;
 padding:$line-global*2;
+margin-bottom:$line-global*2;
 }
      .journal-container{
          display:block;
@@ -839,7 +878,16 @@ padding:$line-global*2;
 .about {
     display:block;
     max-height:100%;
-
+    background-color:$background-color;
+    padding-top:$line-global*2;
+    h2 {
+        display:block;
+        position: absolute;
+        top:$line-global*3;
+        left:$line-global*3;
+        z-index:2;
+        color:$white;
+    }
     .about-container {
         display:block;
         height:100%;
@@ -879,7 +927,12 @@ padding:$line-global*2;
 
      div {
          width:200px;
-         padding:40px;
+         height:100%;
+         position:relative;
+         padding:$line-global*2 $line-global*2 $line-global*4 $line-global*2;
+     }
+     h2 {
+        display:none;
      }
     }
 }
@@ -899,11 +952,14 @@ padding:$line-global*2;
         color:$black;
         position:relative;
         width:100%;
+        ul {
+            padding-left:0;
+        }
 
 }
 
 .add-on-prices {
-    grid-template-columns: 5fr 3fr;
+    grid-template-columns: auto auto;
     li {
         color:black;
         position:relative;
@@ -925,6 +981,9 @@ padding:$line-global*2;
         margin-right:$line-global/2;
         grid-template-columns:1fr;
 
+        .package-info {
+            padding-left:0;
+        }
         
     h3 {
         text-align:center;
@@ -966,7 +1025,7 @@ h3,li, {
             align-items:center;
             img {
                 padding:0 0 $line-global 0;
-                width:150px;
+                width:200px;
             }
         }
        
@@ -985,15 +1044,15 @@ h3,li, {
         text-align:center;
         h2 {
             position: absolute;;
-            font-size:24px;
+            font-size:36px;
             width:100px;
-            top:-10px;
-            left:20px;
+            top:-20px;
+            left:$line-global*2;
             text-align:left;
             
         }
         img {
-        width:200px;
+        width:260px;
         }
     }
     .contact-form {
