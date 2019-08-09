@@ -375,12 +375,13 @@ justify-content: center;
     height:1200px;
     margin-left:$line-global*2;
     margin-right:$line-global*2;
+    margin-bottom:$line-global*4;
     position:relative;
 
 
     h2 {
         text-align:center;
-        margin-top:$line-global*4;
+        padding-top:$line-global*4;
     }
   
     .price-background {
@@ -413,7 +414,11 @@ justify-content: center;
             justify-self:center;
             max-width:100%;
             filter:grayscale(100%);
+            padding:0;
 
+        }
+        .breaker {
+            display:none;
         }
         h3 {
             padding-top: $line-global;
@@ -475,7 +480,7 @@ justify-content: center;
     height:50%;
 
     h2 {
-        margin-top:$line-global*4;
+        padding-top:$line-global*4;
         text-align:center;
     }
     .award-badges {
@@ -708,7 +713,9 @@ footer {
     margin-left:auto;
     margin-right:auto;
     margin-bottom:$line-global*4;
-
+    a {
+        color:#FFB444;
+    }
     p {
         width:375px;
         text-align:center;
@@ -791,39 +798,72 @@ footer {
 
  .hero {
     display:none; }
+.mobile-container {
 
+    .mobile-menu {
+       
+        height:100vh;
+        width:100%;
+        background-color:rgba(255,255,255,0.9);
+        z-index:2;
+        position: fixed;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        transform:translateY(-100%);
+        transition: 1s ease;
+        a {
+            padding-bottom:$line-global*2;
+            font-size:$header-size;
+            color:$black;
+
+        }
+        
+    }
+    .open {
+        transform:translateY(0%);
+    }
     .mobile-hero {
         display:block;
         height:100vh;
         background-image:url(/assets/images/hero-photo.jpg);
         background-position:center;
         background-size:cover;
-
-        h1 {
-            color:$white;
-            
-            position: absolute;
-            top:50%;
-            left:50%;
-            transform:translate(-50%, -50%);
-            width:100%;
-            text-align:center;
-        }
-
-        .mobile-button{
-            position:absolute;
-            top:$line-global;
-            right:$line-global;
-            cursor:pointer;
-            div {
-                display:block;
-                height:5px;
-                width:40px;
-                margin-bottom:5px;
-                background-color:$white;
-            }
-        }
     }
+    
+        .mobile-bar {
+            max-width:100%;              
+            position:fixed;
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            z-index:4;
+            h1 {
+                padding-left:$line-global;
+        }
+            .mobile-button{
+                padding-right:$line-global;
+                cursor:pointer;
+                div {
+                    display:block;
+                    height:5px;
+                    width:40px;
+                    margin-bottom:5px;
+                    background-color:$black;
+                }
+            }
+            background-color:$white;
+            width:100%;
+            height:60px;             z-index:2;
+
+            
+      
+        
+  
+    }
+}
+
 // journal mobile
  .journal {
 width:100%;
@@ -883,7 +923,7 @@ margin-bottom:$line-global*2;
     h2 {
         display:block;
         position: absolute;
-        top:$line-global*3;
+        top:$line-global*6;
         left:$line-global*3;
         z-index:2;
         color:$white;
@@ -892,6 +932,7 @@ margin-bottom:$line-global*2;
         display:block;
         height:100%;
         position:relative;
+        padding-top:$line-global*3;
         width:100%;
              .about-image {
          position:relative;
@@ -901,12 +942,12 @@ margin-bottom:$line-global*2;
          margin-left:auto;
          margin-right:auto;
          text-align:center;
-        
+         border-radius:100%;
+
 
          img {
              position:relative;
              max-width:200px;
-             border-radius:100%;
              left:0;
           
          }
@@ -980,9 +1021,17 @@ margin-bottom:$line-global*2;
         margin-left:$line-global/2;
         margin-right:$line-global/2;
         grid-template-columns:1fr;
+        margin-top:0;
 
         .package-info {
             padding-left:0;
+            img {
+                padding-top:$line-global;
+            }
+            .breaker {
+                display:block;
+                margin:0;
+            }
         }
         
     h3 {
@@ -1017,7 +1066,6 @@ h3,li, {
 
 // awards {
     .awards {
-        margin-bottom:$line-global*4;
         .award-badges{
             display:flex;
             width:100%;
@@ -1036,7 +1084,7 @@ h3,li, {
 .contact {
     display:block;
     height:100%;
-
+    padding-top:$line-global*4;
     .contact-quote {
         display:block;
         margin-left:auto;
@@ -1093,5 +1141,46 @@ footer {
     }
     
 }
-}
+    
 
+    // posts 
+
+    .post-container {
+        margin-top:0;
+        margin-bottom:$line-global*2;
+         .post-content {
+             h2 {
+             padding-top:$line-global*4;
+             margin-bottom:$line-global;
+         }
+         h3 {
+            text-align: center;
+
+         }
+    }
+    }
+
+    // FAQ 
+
+    .questions{
+        .question {
+            padding-top:$line-global*2;
+            display:block;
+            h2 {
+                padding-top:$line-global;
+            
+            }     
+        }
+    }
+
+ // couple session 
+ 
+ .image-container {
+     .image-grid {
+        grid-template-columns: repeat(2,auto);
+        img {
+            padding:0;
+        }
+     }
+ }
+}
