@@ -855,7 +855,7 @@ footer {
 // mobile Styles
 
 @media (max-width: 1100px) {
-   
+
     .about {
         .about-container{
             .about-image {
@@ -1324,6 +1324,14 @@ h3 {
  }
 
 
+}
+
+@media (max-width:550px) {
+    .mobile-hero {
+        h1 {
+            display:none;
+        }
+    }
 }
 
 @media (max-width:320px) {
