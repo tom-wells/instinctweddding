@@ -156,9 +156,8 @@ header {
   
     .older-posts {
         display:block;
-        position: absolute;
         bottom:$line-global*6;
-        right: $line-global*6;
+        position:relative;
         a {
             color:$black;
             border-bottom: solid 2px $black;
@@ -265,32 +264,34 @@ header {
         height:100vh;
 
         .about-image {
-            display:flex;
-            flex-direction:column;
-            justify-content: center;
-            position: relative;
-            z-index:1;
-            
+            display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    width: 50vw;
+    justify-content:center;
+}
             img{
                 width:350px;
-                position: absolute;
-                left:100px;            }
+                left:175px;     
+               }
             
         }
         .about-text {
-            width:75%;
+            width:75vw;
             height:100vh;
             position: absolute;
             background-color:$background-color;
             right:0;
             display:flex;
-            justify-content: space-around;
+            justify-content: center;
             align-items:center;
             color:$white;
             font-family: $body-type;
             font-size:$body-size;
             div{
-                width:350px;
+                max-width:350px;
                 h2 {
                     margin-bottom:$line-global;
                     font-family:$header-type;
@@ -301,7 +302,7 @@ header {
         }
     }
 
-}
+
 
 
 // Image Slideshow
@@ -510,16 +511,19 @@ justify-content: center;
     display:flex;
     justify-content: center;
     margin:$line-global*2;
-    .queries  {
+    .queries-container {
         width:100%;
+        height:100%;
         position: relative;
         display: flex;
-        
+        flex-direction:column;
         justify-content: center;
-        
-        align-items: center;
+        align-items: flex-end;
+    .queries  {
+       text-align:center;
        h2 {
             max-width:100%;
+
                        a {
                color:#FFB444;
                max-width:100%;
@@ -527,6 +531,7 @@ justify-content: center;
            }
        }
      }
+    }
     .contact-quote {
         position:relative;
         display:flex;
@@ -551,7 +556,7 @@ justify-content: center;
     }
     .contact-form {
         width:100%;
-
+        padding-left:$line-global*4;
         form {
            
             width: 100%;
@@ -559,7 +564,7 @@ justify-content: center;
             display:flex;
             flex-direction:column;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             font-family: $body-type;
             font-size:$body-size;
             h2 {
@@ -1137,24 +1142,28 @@ h3,li, {
 //contact 
 
 .contact {
+    width:100%;
     display:block;
     height:100%;
     padding-top:$line-global*4;
     text-align:center;
-  
+    margin-left:auto;
+    margin-right:auto;
+  .queries-container {
+    align-items:center;
     .queries {
-        display:flex; 
-        justify-content: center;
-        width:100%;
         h2 {
-            font-size:24px;
-            width:300px;
-
-            a {
-            }
+            font-size:$sub-header-size;
         }
+
     }
+}
     .contact-form {
+        padding:0;
+        form {
+            align-items: center;
+
+        }
         h2 {
             margin-bottom:$line-global;
             text-align: center;
@@ -1277,4 +1286,6 @@ h3 {
         }
      }
  }
+
+
 }
