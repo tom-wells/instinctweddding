@@ -794,10 +794,30 @@ footer {
  header {
      display:none;
  }
+ .mobile-hero {
+    display:block;
+    height:100vh;
+    background-image:url(/assets/images/hero-photo.jpg);
+    background-position:center;
+    background-size:cover;
+    h1 {
+        position: absolute;
+        z-index:1;
+        top:50%;
+        left:50%;
+        text-align:center;
+        width:200px;
+        line-height: $line-height-global;
+        color:$white;
+        transform:translate(-50%,-50%);
+    }
+}
 
 
  .hero {
-    display:none; }
+    display:none; 
+}
+    
 .mobile-container {
 
     .mobile-menu {
@@ -824,13 +844,6 @@ footer {
     .open {
         transform:translateY(0%);
     }
-    .mobile-hero {
-        display:block;
-        height:100vh;
-        background-image:url(/assets/images/hero-photo.jpg);
-        background-position:center;
-        background-size:cover;
-    }
     
         .mobile-bar {
             max-width:100%;              
@@ -841,6 +854,8 @@ footer {
             z-index:4;
             h1 {
                 padding-left:$line-global;
+                font-size:$sub-header-size;
+                color:$black;
         }
             .mobile-button{
                 padding-right:$line-global;
@@ -904,6 +919,9 @@ margin-bottom:$line-global*2;
              h3 {
                  width:240px;
              }
+            .read-more {
+                font-weight:700;
+            }
          }
 
 
@@ -1031,6 +1049,7 @@ margin-bottom:$line-global*2;
             .breaker {
                 display:block;
                 margin:0;
+                width:70px;
             }
         }
         
@@ -1153,11 +1172,45 @@ footer {
              padding-top:$line-global*4;
              margin-bottom:$line-global;
          }
+
+         iframe {
+             width:100%;
+         }
          h3 {
             text-align: center;
 
          }
     }
+
+   
+
+
+    }
+    .post-nav {
+padding:$line-global;  
+h3 {
+    font-size:18px;
+
+}.prev-url,
+        .next-url,
+        .go-archive {
+            padding:0;
+
+          
+        }
+        .prev-url img {
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+        .prev-url img, .next-url img {
+            padding-left:10px;
+            padding-right:10px;
+
+        }
     }
 
     // FAQ 
@@ -1180,6 +1233,7 @@ footer {
         grid-template-columns: repeat(2,auto);
         img {
             padding:0;
+            max-width:150px;
         }
      }
  }
