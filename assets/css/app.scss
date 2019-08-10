@@ -51,6 +51,8 @@ a {
    
 
 }
+
+
 header {
     
     width:100%;
@@ -77,6 +79,7 @@ header {
     h1 {
         margin:$line-global;
         font-family:$header-type;
+        font-weight:700;
     }
 
     .home:hover {
@@ -507,27 +510,51 @@ justify-content: center;
     display:flex;
     justify-content: center;
     margin:$line-global*2;
+    .queries  {
+        width:100%;
+        position: relative;
+        display: flex;
+        
+        justify-content: center;
+        
+        align-items: center;
+       h2 {
+            max-width:100%;
+                       a {
+               color:#FFB444;
+               max-width:100%;
+
+           }
+       }
+     }
     .contact-quote {
-        margin:$line-global*2;
         position:relative;
         display:flex;
         justify-content: center;
         align-items:center;
+        width:100%;
+        img {
+            width:100%;
+            padding:60px;
+        }
         h2 {
             position: absolute;
-            top:75px;
-            left:-40px;
-            width:350px;
-            font-size:72px;
-            color:#FFB444   
+            width:600px;
+            font-size:48px;
+            color:$white;
+            text-align:center;
+            
+            a {
+                color:#FFB444;
+            }
         }
     }
     .contact-form {
-    
-
-        margin:$line-global*2;
+        width:100%;
 
         form {
+           
+            width: 100%;
             height:100%;
             display:flex;
             flex-direction:column;
@@ -535,6 +562,11 @@ justify-content: center;
             align-items: center;
             font-family: $body-type;
             font-size:$body-size;
+            h2 {
+                padding-top:$line-global*2;
+                padding-bottom:$line-global;
+                font-family:$header-type;
+            }
                        }
 
                        
@@ -560,7 +592,7 @@ justify-content: center;
                 
             }
             .submit {
-                width:100%;
+                width:310px;
                 height:$line-global*2;
                 margin-top:$line-global/2;
 
@@ -788,6 +820,10 @@ footer {
     margin-bottom:$line-global*4;
     margin-top:$line-global*4;
 }
+
+//
+
+
 // mobile Styles
 
 @media (max-width: 500px) {
@@ -1104,25 +1140,25 @@ h3,li, {
     display:block;
     height:100%;
     padding-top:$line-global*4;
-    .contact-quote {
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
-        text-align:center;
+    text-align:center;
+  
+    .queries {
+        display:flex; 
+        justify-content: center;
+        width:100%;
         h2 {
-            position: absolute;;
-            font-size:36px;
-            width:100px;
-            top:-20px;
-            left:$line-global*2;
-            text-align:left;
-            
-        }
-        img {
-        width:260px;
+            font-size:24px;
+            width:300px;
+
+            a {
+            }
         }
     }
     .contact-form {
+        h2 {
+            margin-bottom:$line-global;
+            text-align: center;
+        }
         input {
             width:250px;
         }
@@ -1171,6 +1207,9 @@ footer {
              h2 {
              padding-top:$line-global*4;
              margin-bottom:$line-global;
+             margin-left: 20px;
+
+margin-right: 20px;
          }
 
          iframe {
@@ -1229,6 +1268,7 @@ h3 {
  // couple session 
  
  .image-container {
+
      .image-grid {
         grid-template-columns: repeat(2,auto);
         img {
