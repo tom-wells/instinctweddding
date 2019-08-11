@@ -451,6 +451,9 @@ header {
         width:100%;
         color:$white;
         bottom:$line-global*2;
+        h2 {
+            font-size:$sub-header-size;
+        }
     }
 
     .add-on-prices {
@@ -1298,8 +1301,9 @@ footer {
                  font-size:$sub-header-size;
              padding-top:$line-global*4;
              margin-bottom:$line-global*2;
-             margin-left: 20px;
-            margin-right: 20px;
+             margin-left: auto;
+             margin-right: auto;
+             text-align: center;
          }
 
          iframe {
@@ -1323,12 +1327,13 @@ footer {
         .next-url {
             float :right;
             color:$black;
-    
+            padding:$line-global;
         }
         .prev-url {
                 float:left;
                 color:$black;
-    
+                padding:$line-global;
+
             }
             
     }
@@ -1336,13 +1341,20 @@ footer {
     // FAQ 
 
     .questions{
+
         .question {
             padding-top:$line-global*2;
             display:block;
             h2 {
                 padding-top:$line-global;
-            
+                max-width:720px;
+
             }     
+            p {
+                max-width:600px;
+                margin-left:auto;
+                margin-right:auto;
+            }
         }
     }
 
