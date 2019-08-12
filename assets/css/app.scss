@@ -120,6 +120,9 @@ header {
 .mobile-hero {
     display:none;
 }
+.mobile-bar {
+    display:none;
+}
 .mobile-menu {
     display:none;
 }
@@ -852,8 +855,8 @@ footer {
    
     h3 {
       text-align:left;
-      margin:0;
-      font-size:$sub-header-size;
+      margin-top:$line-global/2+5;
+    font-size:$sub-header-size;
       
 
       
@@ -975,6 +978,7 @@ footer {
             align-items:center;
             z-index:4;
             h1 {
+
                 padding-left:$line-global;
                 font-size:$sub-header-size;
                 color:$black;
