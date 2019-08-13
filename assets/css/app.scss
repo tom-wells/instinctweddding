@@ -106,9 +106,7 @@ header {
         margin-right:$line-global/2;
         position:relative;
         padding-bottom:5px;        
-        &:hover {
-            border-bottom: 1px solid black;
-        }
+     
     
 
    
@@ -163,6 +161,10 @@ header {
         margin-top:$line-global*4;
       
     
+    }
+    a{
+        color:$black;
+        padding:20px;
     }
     .read-more {
         font-weight:700;
@@ -730,9 +732,8 @@ footer {
     }
     .go-archive {
         h2{
+            text-transform: uppercase;
             text-align: center;
-            width:100%;
-            z-index:3;
             color:$black;
             cursor:pointer;
 
