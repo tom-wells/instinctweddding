@@ -391,12 +391,14 @@ header {
     }
   
     .price-background {
-        width:100%;
+        max-width:1200px;
         height:900px;
         top: 250px;
         background-color:$background-color;
         position: relative;
         z-index:0;
+        margin-left:auto;
+        margin-right:auto;
     }
 
     .price-image-holder {
