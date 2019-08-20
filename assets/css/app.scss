@@ -983,6 +983,8 @@ footer {
     .mobile-menu {
        
         height:100vh;
+        margin-top: $line-global*3;
+
         width:100%;
         background-color:rgba(255,255,255,0.9);
         z-index:2;
@@ -992,7 +994,7 @@ footer {
         align-items: center;
         justify-content: center;
         transform:translateY(-100%);
-        transition: 1s ease;
+        transition: 1.5s ease;
         a {
             padding-bottom:$line-global*2;
             font-size:$header-size;
@@ -1054,7 +1056,8 @@ margin-top:0;
 justify-content: center;   
 h2 {
     margin-top:160px;
-
+    width: 250px;
+    text-align:center;
 }
 
 .older-posts {
@@ -1430,6 +1433,12 @@ footer {
  }
 
 
+}
+
+// archive
+
+.archive {
+    margin-top: 0px;
 }
 
 @media (max-width:550px) {
