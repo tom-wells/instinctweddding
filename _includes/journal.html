@@ -1,5 +1,5 @@
 <section id="journal" class="journal">
-    <h2> Journal </h2>
+    <h2>Weddings</h2>
 
           <div class="journal-container">   
           {% for post in site.posts limit:3 %}
@@ -7,20 +7,19 @@
                 <div class="image-background"><a href="{{ post.url }}"> 
                     
                   <img src="{{post.img}}"/>
-
-                </div>
+                  <div class="description">
+                    <h3>{{ post.title }}</h3>
+                    <p class="read-more">READ MORE</p>
+                  </div>
+                  </a>
               
-
-                
-
-
               </div>
-              <div class="description">
-              <h3>{{ post.title }}<img src="assets/images/chevron.svg"></h3>
-              <p class="read-more">READ MORE</p>
-              <p>{{ post.excerpt}}</p>
+
+            
+
+               
               </div>
-            </a>
+            
 
           {%endfor%}
         </div>
