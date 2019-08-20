@@ -1014,14 +1014,13 @@ footer {
             display:block;
             z-index:4;
             .logo {
+                max-height:100%;
                 max-width:100%;
                 display:flex;
                 justify-content: center;
             }
             img {
-            
-                
-                width:250px;
+                max-width:250px;
               
                            }
             .mobile-button{
