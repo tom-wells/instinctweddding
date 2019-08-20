@@ -1119,7 +1119,7 @@ margin-bottom:$line-global*2;
         display:block;
         height:100%;
         position:relative;
-        padding-top:$line-global*3;
+        padding-top:$line-global*6;
         width:100%;
              .about-image {
                 h2 {
@@ -1181,6 +1181,9 @@ margin-bottom:$line-global*2;
     height:100%;
     margin-left:0;
     margin-right:0;
+    h2 {
+        padding-top:140px;
+    }
     .add-ons {
         h2 {
             padding-bottom:$line-global;
@@ -1281,7 +1284,7 @@ h3,li, {
     width:100%;
     display:block;
     height:100%;
-    padding-top:$line-global*4;
+    padding-top:$line-global*7;
     text-align:center;
     margin-left:auto;
     margin-right:auto;
