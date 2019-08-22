@@ -164,7 +164,7 @@ header {
 // Journal Section
 
 .journal {
-    max-width:100%;
+    max-width:1500px;
     position:relative;
     margin-top:$line-global*9;
     margin-bottom:$line-global*4;
@@ -201,7 +201,7 @@ header {
 }
 
 .journal-container {
-    max-width:1500px;
+    max-width:100%;
     padding-top:$line-global*4;
     position:relative;
     display:flex;
@@ -917,9 +917,18 @@ footer {
 
 
 // mobile Styles
+@media (max-width:1300px) {
+  .journal {
+    .journal-container {
+        max-width:900px;
+}
+  }
+
+}
 
 @media (max-width: 1100px) {
 
+    
     .about {
         .about-container{
             .about-image {
