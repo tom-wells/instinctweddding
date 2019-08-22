@@ -164,7 +164,7 @@ header {
 // Journal Section
 
 .journal {
-    max-width:1500px;
+    max-width:100%;
     position:relative;
     margin-top:$line-global*9;
     margin-bottom:$line-global*4;
@@ -921,6 +921,10 @@ footer {
   .journal {
     .journal-container {
         max-width:900px;
+        .images {
+            padding-left:$line-global*4;
+            padding-right:$line-global*4;
+        }
 }
   }
 
@@ -1090,20 +1094,20 @@ margin-bottom:$line-global*2;
              padding-bottom:$line-global;
              padding-left:0;
          padding-right:0;
-         margin-bottom:160px;
+         margin-bottom:200px;
 
              .image-background {
-                 width:200px;
-                 height:200px;
+                 width:250px;
+                 height:250px;
              }
              img {
-                 width:200px;
+                 width:250px;
              }
          .description {
              width:240px;
              h3 {
                  width:240px;
-                 margin-top:250px;
+                 margin-top:270px;
 
              }
          
