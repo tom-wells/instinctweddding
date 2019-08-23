@@ -10,13 +10,16 @@ layout: default
    
    
     {% if page.previous.url %}
-    <a class="prev-url" href="{{page.previous.url}}"><h3>Previous Post</h3></a>
+    <a class="prev-url" href="{{page.previous.url}}"><h3><img src="/assets/images/chevron.svg" alt="">PREV. </h3></a>
 {% endif %} 
 {% if page.next.url %}
-    <a class="next-url" href="{{page.next.url}}"><h3>Next Post</h3></a>
+    <a class="next-url" href="{{page.next.url}}"><h3>NEXT<img src="/assets/images/chevron.svg" alt=""> </h3></a>
 {% endif %}
 
- </div>
+</div>
 
- {% include footer.html %}
+
+{% include footer.html %}
+
+
    
