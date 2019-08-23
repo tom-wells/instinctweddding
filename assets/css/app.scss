@@ -15,6 +15,12 @@
      url('/assets/fonts/WremenaRegular.otf')format('opentype'),
          url('/assets/fonts/WremenaRegular.woff') format('woff');
 }
+@font-face {
+    font-family: "Wremena Light";
+    src:
+     url('/assets/fonts/WremenaLight.otf')format('opentype'),
+         url('/assets/fonts/WremenaLight.woff') format('woff');
+}
         
 
 
@@ -26,7 +32,7 @@ $background-color: #023202;
 $body-type: 'Open Sans', sans-serif;
 $header-type:'Wremena Bold', serif;
 $sub-header-type: 'Wremena Regular', serif;
-
+$header-type-light: 'Wremena Light', serif;
  
 
 $line-height-global:1.4;
@@ -160,7 +166,41 @@ header {
     }
 }
 
+.info {
+    width:100%;
+    height:300px;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:$background-color;
+    img {
+        width:60px;
+    }
+    h2 {
+        max-width:600px;
+        z-index:1;
+        font-family:$header-type-light;
+        text-align:center;
+        font-size:$header-size;
+        color:$white;
+        padding-bottom:$line-global;
+        
+      
+     
 
+    }
+
+}
+
+@media (max-width:420px) {
+    .info {
+        h2 {
+            font-size:22px;
+        }
+    }
+}
 // Journal Section
 
 .journal {
@@ -740,7 +780,7 @@ footer {
             font-size:$body-size;
             font-family: $header-type;
             font-weight: $header-weight;
-            text-transform:uppercase;        }
+                 }
         p {
             max-width:720px;
             line-height:$line-height-global;
@@ -967,22 +1007,7 @@ footer {
     background-image:url(/assets/images/hero-photo.jpg);
     background-position:center;
     background-size:cover;
-    h1 {
-        max-width:600px;
-        position: absolute;
-        z-index:1;
-        top:50%;
-        left:50%;
-        text-align:center;
-        font-size:$header-size*1.5;
-        line-height: $line-height-global;
-        color:$white;
-        text-transform:uppercase; 
-     
-
-        transform:translate(-50%,-50%);
-    }
-
+   
 
 }
 
@@ -1464,6 +1489,7 @@ footer {
         }
     }
 }
+
 
 @media (max-width:320px) {
     .image-container {
