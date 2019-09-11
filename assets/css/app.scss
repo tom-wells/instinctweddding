@@ -22,22 +22,27 @@
          url('/assets/fonts/WremenaLight.woff') format('woff');
 }
         
-
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 $black: #000000;
+$black-overlay: rgba(0,0,0,0.7);
 $white:#FFFFFF;
 $background-color: #023202;
 $body-type: 'Open Sans', sans-serif;
-$header-type:'Wremena Bold', serif;
-$sub-header-type: 'Wremena Regular', serif;
-$header-type-light: 'Wremena Light', serif;
+$header-type:'Cormorant Garamond', serif;;
+$sub-header-type:'Cormorant Garamond', serif;
+$header-type-light:'Cormorant Garamond', serif;
  
+
+
+
 
 $line-height-global:1.4;
 $header-size:36px;
-$header-weight:100;
+$header-weight:600;
+$light-weight:400;
 $sub-header-size:24px;
 $body-size:16px;
 
@@ -110,11 +115,10 @@ header {
 
     nav {
         display:flex;
-        width: 840px;
+        width: 900px;
         justify-content:space-between; 
         align-items:center;     
-        font-size:$body-size;
-        font-family:$sub-header-type;
+        
 
        
         img {
@@ -128,7 +132,10 @@ header {
         margin-left:$line-global/2;
         margin-right:$line-global/2;
         position:relative;
-        padding-bottom:5px;        
+        padding-bottom:5px;  
+        font-size:$body-size;
+        font-family:$sub-header-type;
+        font-weight: $header-weight;      
      
     
 
@@ -168,7 +175,7 @@ header {
 
 .info {
     width:100%;
-    height:300px;
+    height:200px;
     position: relative;
     display:flex;
     flex-direction:column;
@@ -184,8 +191,10 @@ header {
         font-family:$header-type-light;
         text-align:center;
         font-size:$header-size;
+        font-weight:$light-weight;
         color:$white;
-        padding-bottom:$line-global;
+        padding-bottom:$line-global/2;
+        padding-top:$line-global/2;
         
       
      
@@ -196,11 +205,218 @@ header {
 
 @media (max-width:420px) {
     .info {
+        height:150px;
         h2 {
             font-size:22px;
         }
     }
 }
+
+
+// Galleries 
+
+.selected {
+    border-bottom: $black solid 2px;
+}
+
+
+.gallery-nav {
+    width:100%;
+    display:flex;
+    position:relative;
+    justify-content: center;
+    padding-top:80px;
+    padding-bottom:0px;
+
+    div {
+        border-left: 2px solid $black;
+    }
+   
+    h3 {
+
+        cursor:pointer;
+        margin-left:20px;
+        margin-right:20px;
+        padding-bottom:5px;
+
+    }
+}
+
+.videography-section,
+.photography-section {
+        display:none;
+        width:100%;
+     
+   
+     
+    
+    }
+
+.videography-section.open,
+.photography-section.open {
+        display:block;
+    }
+
+  
+    
+.galleries {
+    max-width:100%;
+    max-height:100%;
+    background-color:$white;
+    padding: $line-global*4 80px 125px 80px; 
+
+
+.modal {
+    display:none;
+}
+.modal-background {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:$black-overlay;
+    z-index:3;
+
+}
+
+.modal-close {
+    position:fixed;
+    right:60px;
+    top:40px;
+    color:$white;
+    cursor:pointer;
+    font-family:$body-type;
+    font-size:$body-size;
+    padding:20px;
+    z-index:3;
+    
+}
+
+.modal-content {
+    position:fixed;
+    top:50%;
+    left:50%;
+    width:800px;
+    z-index:4;
+    transform:translate(-50%,-50%);
+    img {
+        width:100%;
+    }
+    
+}
+
+    .images,
+    .videos {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(1, 1fr 1fr 1fr);
+        justify-content: center;
+        grid-row-gap: 20px;
+        grid-column-gap:20px;
+        padding-top:40px;
+        .view-more {
+            font-size:$sub-header-size;
+            grid-column: 2 / 3;
+            padding-top:$line-global*2;
+            width:100%;
+            text-align:center;
+            a {
+            border-bottom:solid 2px $black;
+                        color:$black;
+                        cursor:pointer;
+
+            }
+                }
+
+
+          
+
+        .image,
+        .video {
+            position:relative;
+            width:100%;
+            height:100%;
+            h1 {
+                width:100%;
+                height:100%;
+                position: absolute;
+                display:flex;
+                justify-content: center;
+                align-items:center;
+                margin:0;
+                color:$white;
+                z-index:2;
+                opacity:1;   
+                }
+            }
+
+            img {
+
+                width:100%;
+            }
+
+            .overlay {
+                background-color:$black-overlay;
+                opacity: 0;
+                    top:0;
+                    left:0;
+                    width: 100%;
+                    height: 100%;
+                    position:absolute;
+                    transition: 0.5s ease;
+                }
+            
+            .photo-overlay {
+                    opacity: 0;
+                    top:0;
+                    left:0;
+                    width: 100%;
+                    height: 100%;
+                    position:absolute;
+                    transition: 0.5s ease;
+            }
+               
+                
+            
+            .image:hover .photo-overlay,
+            .video:hover .overlay {
+                opacity:1;
+                cursor:pointer;
+                z-index:2;
+                filter:none;
+               
+           
+        }
+        
+        
+    }
+            
+}
+
+@media (max-width:860px) {
+    .galleries {
+        padding: $line-global*3 20px 60px 20px; 
+
+        .gallery-nav img {
+            display:none;
+        }
+     .images,
+    .videos {
+        display:block;
+    }
+    .image,
+    .video {
+        padding-top:$line-global;
+        .overlay,
+        .photo-overlay {
+            display:none;
+        }
+
+    }
+}
+}
+
 // Journal Section
 
 .journal {
@@ -277,6 +493,7 @@ header {
     .read-more {
         font-weight:700;
         font-family:$body-type;
+        font-size: 12px;
     }
 
     }
@@ -326,7 +543,7 @@ header {
     max-height:100vh;
     position:relative;
 
- h2 {
+.mobile-about {
      display:none;
  }
     
@@ -367,6 +584,7 @@ header {
             div{
                 max-width:350px;
                 h2 {
+                    color:#FFB444;
                     margin-bottom:$line-global;
                     font-family:$header-type;
                 }
@@ -487,6 +705,7 @@ header {
         }
         .sum {
             font-family:$body-type;
+            font-size:18px;
 
         }
         h3 {
@@ -550,15 +769,18 @@ header {
 .awards {
     position:relative;
     width:100%;
-    height:50%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 
     h2 {
         text-transform:uppercase; 
-        padding-top:$line-global*4;
+  
         text-align:center;
     }
     .award-badges {
-        margin-top:$line-global*2;
+        margin-top:$line-global*7;
 
         margin-right:auto;
         margin-left:auto;
@@ -797,11 +1019,12 @@ footer {
    
     }
     .go-archive {
-        h2{
+        h3{
             text-transform: uppercase;
             text-align: center;
             color:$black;
             cursor:pointer;
+            
 
         }
      
@@ -1035,7 +1258,7 @@ footer {
         transform:translateY(-100%);
         transition: 1.5s ease;
         a {
-            padding-bottom:$line-global*2;
+            padding-bottom:$line-global;
             font-size:$header-size;
             font-family:$header-type;
             color:$black;
@@ -1167,7 +1390,7 @@ margin-bottom:$line-global*2;
                     left:-$line-global*2;
                     top:$line-global;
                     z-index:2;
-                    color:$white;
+                    color:#FFB444;
                 }
          position:relative;
          display:block;
@@ -1304,11 +1527,14 @@ h3,li, {
 
 // awards {
     .awards {
+        padding-top:$line-global*7;
+     
         .award-badges{
             display:flex;
             width:100%;
             flex-direction:column;
             align-items:center;
+            margin-top:$line-global*4;
             img {
                 padding:0 0 $line-global 0;
                 width:200px;
