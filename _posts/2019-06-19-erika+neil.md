@@ -1,6 +1,8 @@
 ---
-img : "/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-101.jpg"
 title: Erika & Neil Engagement Session in the moody Camber Sands and Rye
+date: 2019-09-13T10:58:11.221Z
+img: >-
+  /assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-101.jpg
 ---
 
 Some days are just good days.
