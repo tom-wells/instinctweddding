@@ -26,10 +26,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+$grey: #e7e7e7;
 $black: #000000;
 $black-overlay: rgba(0,0,0,0.7);
 $white:#FFFFFF;
-$background-color: #023202;
+$background-color: #FFFFFF;
 $body-type: 'Open Sans', sans-serif;
 $header-type:'Cormorant Garamond', serif;;
 $sub-header-type:'Cormorant Garamond', serif;
@@ -83,7 +84,8 @@ a {
 
 
 header {
-    
+
+    height:160px;
     width:100%;
     position: fixed;
     display:flex;
@@ -578,13 +580,13 @@ header {
             display:flex;
             justify-content: center;
             align-items:center;
-            color:$white;
+            color:$black;
             font-family: $body-type;
             font-size:$body-size;
             div{
                 max-width:350px;
                 h2 {
-                    color:#FFB444;
+                    color:$black;
                     margin-bottom:$line-global;
                     font-family:$header-type;
                 }
@@ -630,7 +632,7 @@ header {
   }
 
   .slide-1 {
-    background-image: url(/assets/images/Erika-and-Neil-Camber-Sands-and-Rye-Engagement-_-Instinct-Wedding-093.jpg);
+    background-image: url(/assets/images/Matt-and-Jen-Wedding-Penshurst-Place-0321.jpg);
   }
   
   .slide-2 {
@@ -652,7 +654,7 @@ header {
 
 .prices {
     max-width:100%;
-    height:1200px;
+    height:1500px;
     margin-left:$line-global*2;
     margin-right:$line-global*2;
     margin-bottom:$line-global*4;
@@ -667,7 +669,7 @@ header {
   
     .price-background {
         max-width:1200px;
-        height:900px;
+        height:1200px;
         top: 250px;
         background-color:$background-color;
         position: relative;
@@ -690,7 +692,7 @@ header {
         max-width:1200px;
         margin-left:$line-global*4;
         margin-right:$line-global*4;
-        grid-template-columns: repeat(3, 300px);
+        grid-template-columns: repeat(3, 350px);
         grid-template-rows:repeat(300px, 100px, 300px);
         grid-column-gap: $line-global*2;
         img {
@@ -710,15 +712,21 @@ header {
         }
         h3 {
             padding-top: $line-global;
-            color:$white;
+            color:$black;
           
+        }
+
+        .except {
+            display:block;
+            margin:0;
+            padding-bottom:$line-global;
         }
         .package-info {
             max-width:100%;
             display:block;
             justify-self:start;
             margin:0;
-            color:$white;
+            color:$black;
             padding-left:$line-global/2;
             padding-top:$line-global;
             font-family: $body-type;
@@ -736,9 +744,10 @@ header {
     }
 
     .add-ons {
+        padding-top:$line-global;
         position: absolute;
         width:100%;
-        color:$white;
+        color:$black;
         bottom:$line-global*2;
         h2 {
             font-size:$sub-header-size;
@@ -747,11 +756,12 @@ header {
 
     .add-on-prices {
         width:100%;
-       display:grid;
-       grid-template-columns:1fr 1fr;
-        ul {
-        justify-self: center;
-        
+       display:flex;
+       justify-content: space-around;
+
+                ul {
+                    padding:0;
+                    
         }
         li {
             list-style-type: none;
@@ -769,7 +779,7 @@ header {
 .awards {
     position:relative;
     width:100%;
-    height:100vh;
+    height:100%;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -873,7 +883,7 @@ header {
             input {
                 width:300px;
                 margin-bottom:$line-global/2;
-                border: solid 1px $background-color;
+                border: solid 1px $black;
                 padding: $line-global/4 $line-global/4 $line-global/4 $line-global/4;
                 font-family: $body-type;
                 font-size:$body-size;
@@ -882,7 +892,7 @@ header {
             
             textarea {
                 width:300px;
-                border: solid 1px $background-color;
+                border: solid 1px $black;
                 height:200px;
                 padding: $line-global/4 $line-global/4 $line-global/4 $line-global/4;
                 font-family: $body-type;
@@ -899,7 +909,7 @@ header {
                 cursor:pointer;
                 
                 color:$white;
-                background-color:$background-color;
+                background-color:$black;
                 border: solid 1px $background-color;
                 font-family:$body-type;
                 font-size:$body-size;
@@ -916,13 +926,13 @@ footer {
         
         padding-bottom:$line-global*2;
         padding-top:$line-global;
-        color:$white;
+        color:$black;
 
     }
 
     width:100%;
     height:260px;
-    background-color:$background-color;
+    background-color:$grey;
     position: relative;
    
     a {
@@ -930,7 +940,7 @@ footer {
         display:flex;
         flex-direction:column;
         text-decoration:none;
-        color:$white;
+        color:$black;
         font-family:$body-type;
         padding-bottom:$line-global/2;
         
@@ -1209,6 +1219,11 @@ footer {
     }
 
     .prices {
+        height:1700px;
+        .price-background {
+            height:1400px;
+        }
+
         .price-image-holder {
             top:-200px;
             div {
@@ -1390,7 +1405,7 @@ margin-bottom:$line-global*2;
                     left:-$line-global*2;
                     top:$line-global;
                     z-index:2;
-                    color:#FFB444;
+                    color:$black;
                 }
          position:relative;
          display:block;
@@ -1416,7 +1431,7 @@ margin-bottom:$line-global*2;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        color: #FFFFFF;
+        
         font-family: "Open Sans", sans-serif;
         font-size: 14px;
         width:100%;
@@ -1463,8 +1478,10 @@ margin-bottom:$line-global*2;
     grid-template-columns: auto auto;
     li {
         color:black;
+        font-size:12px;
         position:relative;
         display:block;
+        margin:15px;
     }
 }
     
@@ -1492,6 +1509,9 @@ margin-bottom:$line-global*2;
                 display:block;
                 margin:0;
                 width:70px;
+                margin-left:auto;
+                margin-right:auto;
+                text-align: center;
             }
         }
         
@@ -1504,11 +1524,10 @@ margin-bottom:$line-global*2;
 
 flex-direction: column;
 
-align-items: center;
 
 width: 100%;
 
-padding-left: 5px;
+padding-left: 10px;
     }
 
      
