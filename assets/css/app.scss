@@ -221,7 +221,15 @@ header {
     border-bottom: $black solid 2px;
 }
 
-
+.galleries h2 {
+    display:block;
+    widows: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    text-transform: uppercase;
+    padding-top:$line-global;
+}
 .gallery-nav {
     width:100%;
     display:flex;
@@ -230,6 +238,7 @@ header {
     padding-top:80px;
     padding-bottom:0px;
 
+  
     div {
         border-left: 2px solid $black;
     }
@@ -554,6 +563,7 @@ header {
         position: relative;
         right:0;
         width:100%;
+        justify-content: center;
         height:100vh;
 
         .about-image {
@@ -562,29 +572,28 @@ header {
     position: relative;
     z-index: 1;
     align-items: center;
-    width: 50vw;
-    justify-content:center;
+    width:50%;
+    justify-content:flex-end;
+    margin-right:$line-global;
 }
             img{
-                left:175px;    
-                width:60%;
+                width:400px;
                }
             
         }
         .about-text {
-            width:75vw;
+            margin-left:$line-global;
+            width:50%;
             height:100vh;
-            position: absolute;
             background-color:$background-color;
-            right:0;
             display:flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items:center;
             color:$black;
             font-family: $body-type;
             font-size:$body-size;
             div{
-                max-width:350px;
+                width:350px;
                 h2 {
                     color:$black;
                     margin-bottom:$line-global;
@@ -669,7 +678,7 @@ header {
   
     .price-background {
         max-width:1200px;
-        height:1200px;
+        height:900px;
         top: 250px;
         background-color:$background-color;
         position: relative;
@@ -1219,9 +1228,9 @@ footer {
     }
 
     .prices {
-        height:1700px;
+        
         .price-background {
-            height:1400px;
+            height:1000px;
         }
 
         .price-image-holder {
