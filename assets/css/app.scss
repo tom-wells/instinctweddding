@@ -1288,16 +1288,17 @@ footer {
     
         .mobile-bar {
             width:100%; 
-            height:120px;
+            height:150px;
              
             position:fixed;
             display:block;
             z-index:4;
             .logo {
-                max-height:100%;
+                height:100%;
                 max-width:100%;
                 display:flex;
                 justify-content: center;
+                align-items:center
             }
             img {
                 max-width:250px;
@@ -1401,7 +1402,8 @@ margin-bottom:$line-global*2;
         width:100%;
              .about-image {
                 h2 {
-                    display:block;
+
+                    display:none;
                     position: absolute;
                     left:-$line-global*2;
                     top:$line-global;
@@ -1535,6 +1537,9 @@ padding-left: 10px;
      
 h3,li, {
     color:$black;
+    }
+    li {
+        font-size:$body-size;
     }
 
 }
