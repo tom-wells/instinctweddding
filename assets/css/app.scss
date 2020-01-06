@@ -1403,9 +1403,9 @@ margin-bottom:$line-global*2;
              .about-image {
                 h2 {
 
-                    display:none;
-                    position: absolute;
-                    left:-$line-global*2;
+                    display:block;
+                    position: relative;
+                    left:-$line-global*4;
                     top:$line-global;
                     z-index:2;
                     color:$black;
@@ -1454,7 +1454,12 @@ margin-bottom:$line-global*2;
     }
 }
 
+// slideshow 
 
+.slideshow {
+
+    display:none;
+}
 
 //prices 
 
@@ -1535,7 +1540,7 @@ padding-left: 10px;
     }
 
      
-h3,li, {
+h3,li {
     color:$black;
     }
     li {
