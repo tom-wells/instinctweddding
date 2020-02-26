@@ -588,11 +588,24 @@ header {
             height:100vh;
             background-color:$background-color;
             display:flex;
-            justify-content: flex-start;
+            flex-direction: column;
+            justify-content: center;
             align-items:center;
             color:$black;
             font-family: $body-type;
             font-size:$body-size;
+        .about-contact {
+            width:350px;
+            margin-top: 20px;
+            background-color: #000000;
+            text-align: center;
+            padding: 10px;
+            color:$white;
+            text-decoration:none;
+            
+           
+        }
+      
             div{
                 width:350px;
                 h2 {
@@ -1428,6 +1441,7 @@ margin-bottom:$line-global*2;
          }
      }  
      .about-text {
+        
         height:100%;
         position: relative;
         background-color:$background-color;
@@ -1439,14 +1453,20 @@ margin-bottom:$line-global*2;
         font-size: 14px;
         width:100%;
         padding:0;
-        margin:0;
+        margin:0px;
+        .about-contact {
+            width:300px;
+        }
      }
 
      div {
-         width:100%;
+         width:300px;
          height:100%;
          position:relative;
-         padding:$line-global*2 $line-global*2 $line-global*4 $line-global*2;
+         padding:$line-global*2 0 $line-global*2 0;
+         margin-left:15px;
+         margin-right:15px;
+         
      }
      h2 {
         display:none;
