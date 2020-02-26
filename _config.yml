@@ -13,11 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Instinct Wedding | Wedding Photography & Videography in Kent
+title: Instinct Wedding - Kent based wedding photography and video team, producing beautiful, documentary style wedding photography and films. Covering Kent, London, East Sussex, Surrey and surrounding areas.
 email: hello@instinctwedding.com
-description: 
-  "Find out who is Instinct Wedding team, what we do and contact us about your wedding photography or videography."
-
+description: Instinct Wedding offers photography and videography packages for couples, getting married in Kent, London, East Sussex, Surrey and surrounding areas. We are a husband and wife team, specialising in natural, documentary, candid style, emotional wedding photos and videos. Contact us to arrange a free, non-obligatory consultation. 
 about: 
   We are Justina and Lloyd, a wife and husband team, working together to create beautiful wedding photos and videos.
   
