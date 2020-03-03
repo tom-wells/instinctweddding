@@ -2,7 +2,7 @@
 layout: post
 title: '**5 Reasons Why You Should Get a Second Photographer / Videographer**'
 date: 2020-03-03T13:26:31.437Z
-img: /images/uploads/charlotte-and-james-at-george-in-rye-181.jpg
+img: /images/uploads/dsc06268.jpg
 ---
 **5 Reasons Why You Should Get a Second Photographer / Videographer**
 
@@ -10,7 +10,7 @@ If you want to have completely stress-free photography and video experience
 
 1. **Getting Ready.** A lot of times, bride and groom will be getting ready in separate locations, often quite a few miles away from each other. Getting two photographers/videographers will help to ensure that both of your mornings will be captured, without having to worry if we are missing an important or a beautiful moment. Having two shooters will help to ensure that one of us can follow each of you all day. And wouldn’t you want to see your partner getting all excited/nervous as they prepare to marry you? 
 
-![]()
+![Groom getting ready with his best man ](/images/uploads/charlotte-and-james-at-george-in-rye-181.jpg "groom getting ready with his best man on the wedding day morning ")
 
 2. **Arriving at the venue**. Even if you are getting ready close to each other, having a second shooter will enable us to capture arrival of your guests, their reactions of first seeing your venue, perhaps greeted by your other half. Just another thing that you can’t see on the day, but you can watch back after you receive your wedding photos/video. 
 
