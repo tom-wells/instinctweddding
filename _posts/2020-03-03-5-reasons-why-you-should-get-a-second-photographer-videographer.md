@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '**5 Reasons Why You Should Get a Second Photographer / Videographer**'
+title: 5 Reasons Why You Should Get a Second Photographer / Videographer
 date: 2020-03-03T13:26:31.437Z
 img: /images/uploads/dsc06268.jpg
 ---
@@ -8,7 +8,7 @@ img: /images/uploads/dsc06268.jpg
 
 If you want to have completely stress-free photography and video experience, second photographer/videographer is a bonus that you will certainly be glad you chose to have. 
 
-Here are Instinct Wedding's 5 reasons why you should get a second photographer / videographer.
+**Here are Instinct Wedding's 5 reasons why you should get a second photographer / videographer.**
 
 1. **Getting Ready.** A lot of times, bride and groom will be getting ready in separate locations, often quite a few miles away from each other. Getting two photographers/videographers will help to ensure that both of your mornings will be captured, without having to worry if we are missing an important or a beautiful moment. Having two shooters will help to ensure that one of us can follow each of you all day. And wouldn’t you want to see your partner getting all excited/nervous as they prepare to marry you? 
 
@@ -23,6 +23,8 @@ Here are Instinct Wedding's 5 reasons why you should get a second photographer /
 ![Brides parents at the wedding ceremony](/images/uploads/matt-and-jess-to-edit-_-instinct-wedding-0515_websize.jpg "brides parents at the wedding ceremony at winters barn in Canterbury")
 
 4. **Cocktail hour**. While you have your photos taken after the ceremony, another shooter could be capturing your guests enjoying their time. Again something you will not see on the day, but can look back on when you get your photos/video back!
+
+
 5. **More memories and more creative photos.** Having a second photographer/videographer will allow your main shooter to be more creative and look for some more epic, unexpected shots and angles, set up lights for a spectacular night time photo, while the second is still capturing everything that is going on at your reception party.
 
 ![bride and groom posing outside their wedding venue at great fosters at night time.   ](/images/uploads/dsc06268.jpg "Great fosters wedding photography")
