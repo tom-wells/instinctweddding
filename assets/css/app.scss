@@ -274,7 +274,7 @@ header {
     max-width:100%;
     max-height:100%;
     background-color:$white;
-    padding: $line-global*4 80px 125px 80px; 
+    padding: $line-global*4 80px 20px 80px; 
 
 
 .modal {
@@ -554,7 +554,6 @@ header {
     max-width:100%;
     max-height:100vh;
     position:relative;
-
 .mobile-about {
      display:none;
  }
@@ -566,6 +565,7 @@ header {
         width:100%;
         justify-content: center;
         height:100vh;
+        padding-top:$line-global*3;
 
         .about-image {
             display: flex;
@@ -583,20 +583,19 @@ header {
             
         }
         .about-text {
-            margin-left:$line-global;
+            margin-left:$line-global*3;
             width:50%;
-            padding-top:10px;
             height:100vh;
             background-color:$background-color;
             display:flex;
             flex-direction: column;
             justify-content: center;
-            align-items:center;
+            align-items:flex-start;
             color:$black;
             font-family: $body-type;
             font-size:$body-size;
         .about-contact {
-            width:350px;
+            width:380px;
             margin-top: 20px;
             background-color: #000000;
             text-align: center;
@@ -608,7 +607,7 @@ header {
         }
       
             div{
-                width:350px;
+                width:400px;
                 h2 {
                     color:$black;
                     margin-bottom:$line-global;
