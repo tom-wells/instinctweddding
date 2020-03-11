@@ -13,7 +13,7 @@ permalink: "/about/"
 <meta property="og:description" content="We are Justina and Lloyd, a wife and husband team, working together to create beautiful wedding photos and videos">
 
 <meta property="og:image" content="https://www.instinctwedding.com/assets/images/about.jpg" alt="Instinct Wedding Photographers in Kent ">
-<meta property="og:url" content="http://www.instinctwedding.com/about">
+<meta property="og:url" content="http://www.instinctwedding.com/about/">
 
 </head>
 
