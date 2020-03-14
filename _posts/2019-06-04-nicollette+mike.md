@@ -1,5 +1,5 @@
 ---
-img : "assets/images/Nicollette-and-Mikey-025.jpg"
+img : "/assets/images/Nicollette-and-Mikey-025.jpg"
 title: Nicollette & Mike Engagement Photo Session in St Dunstan-in-the-East in London
 excerpt: I got super excited when Nicollette suggested to have her and Mikey's engagement session in St Dunstan-in-the-East in London. 
 ---

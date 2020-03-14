@@ -50,7 +50,10 @@ $body-size:14px;
 $line-global:20px;
 
 
-
+body{
+    height:100%;
+    
+}
 
 h1, h2 {
     font-size:$header-size;
@@ -800,6 +803,8 @@ header {
 // Award Section 
 
 .awards {
+    padding-top:$line-global*2;
+    padding-bottom:$line-global*4;
     position:relative;
     width:100%;
     height:100%;
@@ -832,31 +837,11 @@ header {
 
 .contact {
     max-width:100%;
-    height:100vh;
+    height:100%;
     display:flex;
     justify-content: center;
     margin:$line-global*2;
-    .queries-container {
-        width:100%;
-        height:100%;
-        position: relative;
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: flex-end;
-    .queries  {
-       text-align:center;
-       h2 {
-            max-width:100%;
-
-                       a {
-               color:#FFB444;
-               max-width:100%;
-
-           }
-       }
-     }
-    }
+    
     .contact-quote {
         position:relative;
         display:flex;
@@ -880,8 +865,10 @@ header {
         }
     }
     .contact-form {
-        width:100%;
-        padding-left:$line-global*4;
+        padding-top: $line-global*6;
+        padding-bottom:$line-global*4;
+        display:flex;
+        justify-content: center;
         form {
            
             width: 100%;
@@ -897,7 +884,7 @@ header {
                 padding-bottom:$line-global;
                 font-family:$header-type;
                 text-transform:uppercase; 
-                width:300px;
+                width:312px;
                 text-align: center;
             }
                        }
@@ -1302,6 +1289,7 @@ footer {
         .mobile-bar {
             width:100%; 
             height:150px;
+            top:0;
              
             position:fixed;
             display:block;
@@ -1406,6 +1394,7 @@ margin-bottom:$line-global*2;
     max-height:100%;
     background-color:$background-color;
     padding-top:$line-global*2;
+    padding-bottom:$line-global*2;
   
     .about-container {
         display:block;
@@ -1488,7 +1477,7 @@ margin-bottom:$line-global*2;
     margin-left:0;
     margin-right:0;
     h2 {
-        padding-top:140px;
+        padding-top:160px;
     }
     .add-ons {
         h2 {
@@ -1603,7 +1592,7 @@ h3,li {
     width:100%;
     display:block;
     height:100%;
-    padding-top:$line-global*7;
+    padding-top:$line-global*5;
     text-align:center;
     margin-left:auto;
     margin-right:auto;

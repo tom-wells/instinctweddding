@@ -2,7 +2,7 @@
 layout: post
 title: 5 Reasons Why You Should Get a Second Photographer / Videographer
 date: 2020-03-03T13:26:31.437Z
-img: /images/uploads/2photograhersfeature.jpg
+img: "/images/uploads/2photograhersfeature.jpg"
 ---
 **5 Reasons Why You Should Get a Second Photographer / Videographer**
 
