@@ -6,6 +6,7 @@ permalink: "/Blog/"
 
 ---
 
+{% include blog-head.html %}
 
 {% include journal.html %}
 

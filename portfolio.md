@@ -7,7 +7,7 @@ permalink: "/portfolio/"
 
 ---
 
-
+{% include portfolio-head.html %}
 
 {% include gallery.html %}
 

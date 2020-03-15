@@ -6,6 +6,7 @@ permalink: "/prices/"
 ---
 
 
+{% include prices-head.html %}
 
 {% include prices.html %}
 
