@@ -26,6 +26,8 @@ Another option if to downsize your wedding, or even opt for an elopement. We def
 
 If you do decide to go on as planned, our advice is not to ignore the virus completely and be considerate to your loved ones. How about leaving hand sanitisers, extra tissues and even anti-bacterial wipes in the bathroom for everyone to use. Also consider that instead of hugs and kisses you bow, wave, elbow bump, feet bump or create your very own greeting gesture. You may even want to spend this time crafting an email to all your guests, explaining the situation and encouraging them to carry on with the government’s advice how to stay healthy and avoiding catching the virus.
 
+
+
 ### **See good, even in a bad situation**
 
 I said this at the beginning of this post, and would like to say this again, we are all in this together.
