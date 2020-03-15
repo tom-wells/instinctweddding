@@ -4,9 +4,9 @@ title: Covid-19 and your 2020 wedding advice
 date: 2020-03-15T10:19:39.933Z
 img: /images/uploads/corona-virus-photography-advice-.jpg
 ---
-I thought it’s about time to address the main topic of today and talk about Corona virus. If you’re getting married in 2020, you have probably wondered if and how it’s going to affect your wedding plans.
+I thought it’s about time to address the major topic of today and talk about Corona virus. If you’re getting married in 2020, you have probably wondered if and how it’s going to affect your wedding plans.
 
-### **First - don’t panic! We are all in this together.** 
+### **First - don’t panic! We are all in this together.**
 
 From our perspective, we do what we can not to catch the virus so we can attend and shoot every single wedding we have booked. We are following governments advice and taking extra precaution by avoiding public places where many people are gathering, and of course - washing our hands often, making sure we’re not touching our faces, we have also decided that air kisses, elbow bumps and even a simple wave are pretty great alternatives to handshake or a hug! Of course, no one is really protected and if we do get infected, we can ensure you that we won’t just ignore the virus and turn up anyway to infect you and your guests. We surely have a plan B and C and feel so liberated about the fact many photographers and videographers from the wedding industry have come together and have created ‘emergency call’ lists, so shall we fall ill, and your wedding is still on, we will ask our super awesome usual second shooter friends to cover your wedding, and even if that plan fails, we have a contact list of other professionals who are keen on helping out. We surely aim not to leave your day uncovered! And of course, we will keep on making sure we are staying as healthy as a radish! (this is Lithuanian saying, which means as healthy as it can be, if your wondered :) )
 
