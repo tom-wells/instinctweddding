@@ -18,6 +18,8 @@ If, for whatever reason you decide to postpone your wedding - be it a government
 
 If you decide to go this route, let us know and we will share our calendar dates and hopefully we can find a suitable date for all your suppliers.
 
+![covid-19 or corona virus advice for couples planning their wedding ](/images/uploads/annette-nathan-0990_websize.jpg "couple kissing on the swing, romantic wedding photography")
+
 ### **Downsizing**
 
 Another option if to downsize your wedding, or even opt for an elopement. We definitely think it’s a good idea that your friends and family most at risk stay at home. Of course, it is hard for them and for you, but we strongly believe that health is the most important thing we have. Even if you do decide to downsize or elope, you can still book a restaurant or a lovely pub dinner with people you want to celebrate your marriage but feel would be at risk if attended your big wedding. You can organise this dinner when it all calms down and you can even bring your wedding videos and photos to the dinner to share with them and tell them all about your wedding day. Of course, it may not be ideal, but we have to work around the situation we have and why not try and make the best out of not so great situation?
@@ -28,13 +30,15 @@ Another option if to downsize your wedding, or even opt for an elopement. We def
 
 If you do decide to go on as planned, our advice is not to ignore the virus completely and be considerate to your loved ones. How about leaving hand sanitisers, extra tissues and even anti-bacterial wipes in the bathroom for everyone to use. Also consider that instead of hugs and kisses you bow, wave, elbow bump, feet bump or create your very own greeting gesture. You may even want to spend this time crafting an email to all your guests, explaining the situation and encouraging them to carry on with the government’s advice how to stay healthy and avoiding catching the virus.
 
-![]()
+![corona virus or covid-19 advice for couples planning their wedding from a wedding photographer](/images/uploads/charlotte-and-james-at-george-in-rye-236.jpg "black and white confetti shot")
 
 ### **See good, even in a bad situation**
 
 I said this at the beginning of this post, and would like to say this again, we are all in this together.
 
 So try not to worry and try and see the positives instead. Perhaps if you’re, like us, avoiding public spaces and not going out as much, see it as an opportunity to spend more time with your partner, talk more, cook nice dinner together, have a romantic evening with candles, have a pic-nic in bed, play some board games, read books under one blanket, get creative - have a photoshoot together, paint, draw, look after your plants. Most most importantly - stay healthy and positive.
+
+
 
 Also, please feel free to contact us at any time if you want to chat or if we can answer any questions.
 
