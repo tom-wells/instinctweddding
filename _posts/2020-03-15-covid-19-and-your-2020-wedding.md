@@ -4,7 +4,7 @@ title: Covid-19 and Your 2020 Wedding
 date: 2020-03-15T08:34:31.730Z
 img: /images/uploads/corona-virus-photography-advice-.jpg
 ---
-### I thought it’s about time to address and talk about Corona virus. If you’re getting married in 2020, you have probably wondered if and how it’s going to affect your wedding plans.
+I thought it’s about time to address and talk about Corona virus. If you’re getting married in 2020, you have probably wondered if and how it’s going to affect your wedding plans.
 
 ### **First - don’t panic! We are all in this together.** 
 
