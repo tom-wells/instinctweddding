@@ -45,12 +45,15 @@ $header-size:36px;
 $header-weight:600;
 $light-weight:400;
 $sub-header-size:24px;
-$body-size:14px;
+$body-size:16px;
 
 $line-global:20px;
 
 
-
+body{
+    height:100%;
+    
+}
 
 h1, h2 {
     font-size:$header-size;
@@ -81,6 +84,23 @@ a {
    
 
 }
+
+.get-in-touch {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom:$line-global*6;
+
+
+   h2 {
+        text-transform:uppercase;
+        color:#000;
+        border:3px solid black;
+        padding:20px;
+    }
+}
+
 
 
 header {
@@ -274,7 +294,7 @@ header {
     max-width:100%;
     max-height:100%;
     background-color:$white;
-    padding: $line-global*4 80px 20px 80px; 
+    padding: $line-global*8 80px 80px 80px; 
 
 
 .modal {
@@ -594,8 +614,10 @@ header {
             color:$black;
             font-family: $body-type;
             font-size:$body-size;
+            p {
+                margin:10px 0 10px 0;            }
         .about-contact {
-            width:380px;
+            width:480px;
             margin-top: 20px;
             background-color: #000000;
             text-align: center;
@@ -607,7 +629,7 @@ header {
         }
       
             div{
-                width:400px;
+                width:500px;
                 h2 {
                     color:$black;
                     margin-bottom:$line-global;
@@ -800,6 +822,8 @@ header {
 // Award Section 
 
 .awards {
+    padding-top:$line-global*2;
+    padding-bottom:$line-global*4;
     position:relative;
     width:100%;
     height:100%;
@@ -832,31 +856,11 @@ header {
 
 .contact {
     max-width:100%;
-    height:100vh;
+    height:100%;
     display:flex;
     justify-content: center;
     margin:$line-global*2;
-    .queries-container {
-        width:100%;
-        height:100%;
-        position: relative;
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: flex-end;
-    .queries  {
-       text-align:center;
-       h2 {
-            max-width:100%;
-
-                       a {
-               color:#FFB444;
-               max-width:100%;
-
-           }
-       }
-     }
-    }
+    
     .contact-quote {
         position:relative;
         display:flex;
@@ -880,8 +884,10 @@ header {
         }
     }
     .contact-form {
-        width:100%;
-        padding-left:$line-global*4;
+        padding-top: $line-global*6;
+        padding-bottom:$line-global*4;
+        display:flex;
+        justify-content: center;
         form {
            
             width: 100%;
@@ -897,7 +903,7 @@ header {
                 padding-bottom:$line-global;
                 font-family:$header-type;
                 text-transform:uppercase; 
-                width:300px;
+                width:312px;
                 text-align: center;
             }
                        }
@@ -1302,6 +1308,7 @@ footer {
         .mobile-bar {
             width:100%; 
             height:150px;
+            top:0;
              
             position:fixed;
             display:block;
@@ -1325,7 +1332,7 @@ footer {
                 cursor:pointer;
                 div {
                     display:block;
-                    height:3px;
+                    height:5px;
                     width:40px;
                     margin-bottom:5px;
                     background-color:$black;
@@ -1347,7 +1354,7 @@ display:flex;
 margin-top:0;
 justify-content: center;   
 h2 {
-    margin-top:160px;
+    margin-top:180px;
     width: 250px;
     text-align:center;
 }
@@ -1406,6 +1413,7 @@ margin-bottom:$line-global*2;
     max-height:100%;
     background-color:$background-color;
     padding-top:$line-global*2;
+    padding-bottom:$line-global*2;
   
     .about-container {
         display:block;
@@ -1450,7 +1458,7 @@ margin-bottom:$line-global*2;
         align-items: center;
         
         font-family: "Open Sans", sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         width:100%;
         padding:0;
         margin:0px;
@@ -1488,7 +1496,7 @@ margin-bottom:$line-global*2;
     margin-left:0;
     margin-right:0;
     h2 {
-        padding-top:140px;
+        padding-top:160px;
     }
     .add-ons {
         h2 {
@@ -1510,7 +1518,7 @@ margin-bottom:$line-global*2;
     grid-template-columns: auto auto;
     li {
         color:black;
-        font-size:12px;
+        font-size:16px;
         position:relative;
         display:block;
         margin:15px;
@@ -1603,7 +1611,7 @@ h3,li {
     width:100%;
     display:block;
     height:100%;
-    padding-top:$line-global*7;
+    padding-top:$line-global*5;
     text-align:center;
     margin-left:auto;
     margin-right:auto;
@@ -1644,6 +1652,13 @@ h3,li {
 
 footer {
     height:100%;
+
+    h3 {
+        font-size:36px;
+    }
+    a{
+        font-size:24px;
+    }
     .media {
         position:relative;
         text-align:center;
@@ -1677,7 +1692,7 @@ footer {
          .post-content {
              h2 {
                  font-size:$sub-header-size;
-             padding-top:$line-global*4;
+             padding-top:$line-global*6;
              margin-bottom:$line-global*2;
              margin-left: auto;
              margin-right: auto;
@@ -1719,9 +1734,8 @@ footer {
     // FAQ 
 
     .questions{
-
         .question {
-            padding-top:$line-global*2;
+            padding-top:$line-global;
             display:block;
             h2 {
                 padding-top:$line-global;

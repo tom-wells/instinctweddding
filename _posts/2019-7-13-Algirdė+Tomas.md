@@ -3,7 +3,7 @@
 title: Intimate and Emotional Wedding in stunning Lithuanian countryside | Algirdė + Tomas
 expcerpt: Algirdė and Tomas wedding was a living proof that you don't need to stay in one venue all day but instead you can go on a day long adventure with all your guests in a mini bus instead.
 
-img : "assets/images/Algirde&Tomas.png"
+img : "/assets/images/Algirde&Tomas.png"
 ---
 
 Algirdė and Tomas wedding was a living proof that you don't need to stay in one venue all day but instead you can go on a day long adventure with all your guests in a mini bus instead.

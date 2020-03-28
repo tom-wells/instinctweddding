@@ -4,7 +4,7 @@ title: Three Things To Consider Before Booking A Wedding Videographer
 
 excerpt: Your wedding day is probably one of the most beautiful, emotional day that will ever happen to you. Not only that, it's likely to be one of the most expensive parties you will ever throw. 
 
-img : "assets/images/three-things.png"
+img: "/assets/images/three-things.png"
 
 ---
 

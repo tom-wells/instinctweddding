@@ -9,4 +9,6 @@ permalink: "/about/"
 
 {% include about.html %}
 
+{% include awards.html %}
+
 {% include footer.html %}
