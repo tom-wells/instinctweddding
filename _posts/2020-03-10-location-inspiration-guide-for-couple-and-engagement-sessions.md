@@ -2,34 +2,33 @@
 layout: post
 title: Location inspiration guide for couple and engagement sessions
 date: 2020-03-10T13:54:36.781Z
-img: >-
-  /images/uploads/lucia-and-jay-forest-engagement-session-instinct-wedding-071.jpg
+img: /images/uploads/lucia-and-jay-forest-engagement-session-instinct-wedding-071.jpg
 ---
-With the Wedding and Engagement Season in it’s full swing, we have created a two part location inspiration guide for Kent, East Sussex and London, where we have listed our favourite and super photogenic locations for you to choose from!
+To make life easier for our lovely couples, looking to have their engagement session in Kent or East Sussex, where we have listed a few of our favourite and super photogenic locations for you to choose from!
 
 ## Villages and old towns in Kent
 
-The reason we love shooting in villages and old towns is how diverse pictures can turn out. England has got some truly beautiful, unique villages and towns in the East, and we love exploring them with our couples and finding charming spots for photos. What can be a better way to spend a golden hour than wondering around, chatting, and stopping when and as inspiration for a great shot hits. We also find that usually these places are not too busy which makes it even greater and really relaxed. Some of our favourite villages and small towns in the South East England include:
+The reason we love shooting in villages and old towns is how diverse pictures can turn out. England has got some truly beautiful, unique villages and towns in the East, and we love exploring them with our couples and finding charming spots for photos. What can be a better way to spend a golden hour than wondering around, chatting, and stopping when and as inspiration for a great shot hits. Some of our favourite villages and small towns in the South East England include:
 
 ### Rye
 
 A truly unique town, near the coast in East Sussex. That’s where true old English charm is exposed in the beautiful cobbled lanes like Mermaid Street, and English history is hiding in half-timbered houses, which serve as a beautiful, unique and rich background for romantic photos.
 
-![couple engagement photography at cobbled mermaid street in Rye](blob:https://www.instinctwedding.com/8ea939cb-b5f6-47a2-91d9-f0e41df9486f "couple walking down Mermaid Street in Rye")
+![couple engagement photography at cobbled mermaid street in Rye](/images/uploads/erika-and-neil-camber-sands-and-rye-engagement-_-instinct-wedding-074_websize.jpg "couple walking down Mermaid Street in Rye")
 
 ### Loose
 
 Loose is situated just outside Maidstone and is an incredibly charming little village. Right in the middle of it, you will find the Brooks Path - picturesque causeway along the Loose Stream that joins the two ends of the village. We love meeting our couples at Chequers inn <https://www.theloosechequers.com/> for a drink before heading out for a little adventure, capturing photos in a natural, peaceful and natural environment that Loose has to offer.
 
-![couple pre wedding photography of couple laughing in loose kent, couple photoshoot location, romantic photography](blob:https://www.instinctwedding.com/bc7a0b0b-515f-46c3-93a7-a131a4b0e255 "happy couple laughing by Loose Streat. ")
+![couple pre wedding photography of couple laughing in loose kent, couple photoshoot location, romantic photography](/images/uploads/instinct-wedding-3_websize.jpg "happy couple laughing by Loose Stream.")
 
-![Couple photoshoot during golden hour, romantic photography in Kent countryside ](blob:https://www.instinctwedding.com/fc76b22f-19cd-423f-b657-ba683ecaaf61 "Fun and romantic couple during the golden hour in Kent ")
+![Couple photoshoot during golden hour, romantic photography in Kent countryside ](/images/uploads/instinct-wedding-31_websize.jpg "Fun and romantic couple during the golden hour in Kent ")
 
 ### Rochester
 
-A historic town, which was among the favourites for Charles Dickens. And there’s a reason for that. We love starting our photoshoots by the Rochester Castle, enjoying the picturesque views and then heading to its streets to either grab a coffee in one of the streets or find a perfect background for a romantic and cosy photo.
+A historic town, which was among the favourites for Charles Dickens. And there’s a reason for that. We love starting our photoshoots by the Rochester Castle, enjoying the picturesque views and then heading to grab a coffee, or carry on with the photos in one of charming streets or find a perfect background for a romantic and cosy shot.
 
-![black and white photo of a couple kissing outside Rochester Castle](blob:https://www.instinctwedding.com/3f09dbfc-a7d8-4fd5-bb4e-3ebf1da87b88 "Couple photo session outside Rochester Castle ")
+![black and white photo of a couple kissing outside Rochester Castle](/images/uploads/adam-jola-rochester-engagement-session-instinct-wedding-079_websize.jpg "Couple photo session outside Rochester Castle ")
 
 ### Tunbridge Wells
 
@@ -43,20 +42,38 @@ Some of our favourite nature backdrops include:
 
 My personal favourite by far! It's a series of chalk cliffs by the English channel. It's the sort of place that wherever you look is beautiful.
 
-![romantic photo backdrop at seven sisters cliffs. Instinct Wedding Justina and Lloyd](blob:https://www.instinctwedding.com/6d4d8793-616b-4761-909e-0aeed7bc6c8e "Justina and Lloyd - Instinct Wedding team")
+![romantic photo backdrop at seven sisters cliffs. Instinct Wedding Justina and Lloyd](/images/uploads/img_8538_websize.jpg "Justina and Lloyd - Instinct Wedding team")
 
 ### Camber Sands
 
-![](blob:https://www.instinctwedding.com/ffbd37f2-f8f8-48cb-aa96-fdd8e8017d71)
+
+
+![Couple in the Camber Sands ](/images/uploads/erika-and-neil-camber-sands-and-rye-engagement-_-instinct-wedding-100_websize.jpg "Couple in the Camber Sands ")
 
 ### Forests
 
-There are top many beautiful, mystical and fun woods in the South East to list every individual one here. Great thing about forests, just like towns, it's easy to find a new story, unique background round every corner. Forests and woods are also perfect for couples who like an outdoor location but don't like when there's too many people around.
+There are too many beautiful, mystical and fun woods in the South East to list every individual one here. Great thing about forests, just like towns, it's easy to find a new story, unique background round every corner. Forests and woods are also perfect for couples who like an outdoor location but don't like when there's too many people around. 
 
-Some of our favourite woods include Forest Row (that's where Winnie the Pooh lived!)
+![couple kissing in the woods ](/images/uploads/lucia-and-jay-forest-engagement-session-instinct-wedding-028_websize.jpg "couple kissing in the woods ")
 
-![](blob:https://www.instinctwedding.com/ad05669d-1f12-4b17-bc9a-ef54dfdece5a)
+### Parks 
 
-### Whatman park in Maidstone
 
-Dunorlan Park in Tunbridge Wells
+
+Last but not least in our least are town and city parks. We love parks as it looks different all year round, and even shooting in the same park during different weather or season can look completely different because of the changing nature. Maybe you got a park near you that you love to go for walks to? It could be really special to have your engagement session there as it will be a meaningful reminder of your life before marriage.
+
+
+
+![black and white photo of a couple in Whatman park, Maidstone](/images/uploads/jess-matt-engagement-session-whatman-park-032_websize.jpg "Couple in Whatman Park, Maidstone ")
+
+### Here we go... 
+
+
+
+We have listed a few of the spots  that we love and know can help to create some beautiful photos. But to tell you the truth, the most amazing, and important in your engagement session is you two, your love and your relationship. If you feel happy, content and joyful, wherever we go, I can assure we will be able to capture some beautiful photos for you to treasure.
+
+Do you have an idea for an engagement or a couple's session? [Get in touch!](https://www.instinctwedding.com/#contact)
+
+Stay safe,
+
+j.
