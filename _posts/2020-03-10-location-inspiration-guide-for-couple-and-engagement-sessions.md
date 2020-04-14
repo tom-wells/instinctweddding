@@ -10,7 +10,7 @@ By the way, have you seen our [Engagement Session Guide](https://www.instinctwed
 
 And for now, let's dive in and talk about some of our favourite locations:
 
-## Villages and old towns in Kent
+## Villages and old towns in Kent and East Sussex
 
 The reason we love shooting in villages and old towns is how diverse pictures can turn out. England has got some truly beautiful, unique villages and towns in the East, and we love exploring them with our couples and finding charming spots for photos. What can be a better way to spend a golden hour than wondering around, chatting, and stopping when and as inspiration for a great shot hits. Some of our favourite villages and small towns in the South East England include:
 
@@ -22,7 +22,7 @@ A truly unique town, near the coast in East Sussex. That’s where true old Engl
 
 ### Loose
 
-Loose is situated just outside Maidstone and is an incredibly charming little village. Right in the middle of it, you will find the Brooks Path - picturesque causeway along the Loose Stream that joins the two ends of the village. We love meeting our couples at [Chequers inn](<https://www.theloosechequers.com/>) [](https://www.theloosechequers.com/)for a drink before heading out for a little adventure, capturing photos in a natural and peaceful environment that Loose has to offer.
+Loose is situated just outside Maidstone and is an incredibly charming little village. Right in the middle of it, you will find the Brooks Path - picturesque causeway along the Loose Stream that joins the two ends of the village. We love meeting our couples at [Chequers inn](https://www.theloosechequers.com/) [](https://www.theloosechequers.com/)for a drink before heading out for a little adventure, capturing photos in a natural and peaceful environment that Loose has to offer.
 
 ![couple pre wedding photography of couple laughing in loose kent, couple photoshoot location, romantic photography](/images/uploads/instinct-wedding-3_websize.jpg "happy couple laughing by Loose Stream.")
 
