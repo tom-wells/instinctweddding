@@ -22,7 +22,7 @@ A truly unique town, near the coast in East Sussex. That’s where true old Engl
 
 ### Loose
 
-Loose is situated just outside Maidstone and is an incredibly charming little village. Right in the middle of it, you will find the Brooks Path - picturesque causeway along the Loose Stream that joins the two ends of the village. We love meeting our couples at Chequers inn <https://www.theloosechequers.com/> for a drink before heading out for a little adventure, capturing photos in a natural, peaceful and natural environment that Loose has to offer.
+Loose is situated just outside Maidstone and is an incredibly charming little village. Right in the middle of it, you will find the Brooks Path - picturesque causeway along the Loose Stream that joins the two ends of the village. We love meeting our couples at [Chequers inn](<https://www.theloosechequers.com/>) [](https://www.theloosechequers.com/)for a drink before heading out for a little adventure, capturing photos in a natural and peaceful environment that Loose has to offer.
 
 ![couple pre wedding photography of couple laughing in loose kent, couple photoshoot location, romantic photography](/images/uploads/instinct-wedding-3_websize.jpg "happy couple laughing by Loose Stream.")
 
@@ -54,13 +54,13 @@ Camber Sands is a beach in East Sussex, and we believe definitely the most photo
 
 ### Forests
 
-There are too many beautiful, mystical and fun woods in the South East to list every individual one here. Great thing about forests, just like towns, it's easy to find a new story, unique background round every corner. Forests and woods are also perfect for couples who like an outdoor location but don't like when there's too many people around. 
+There are too many beautiful, mystical and fun woods in the South East to list every individual one here. Great thing about forests, just like towns, it's easy to find a new story and unique background round every corner. Forests and woods are also perfect for couples who like an outdoor location but don't like when there's too many people around. 
 
 ![couple kissing in the woods ](/images/uploads/lucia-and-jay-forest-engagement-session-instinct-wedding-028_websize.jpg "couple kissing in the woods ")
 
 ### Parks
 
-Last but not least in our least are town and city parks. We love parks as it looks different all year round, and even shooting in the same park during different weather or season can look completely different because of the changing nature. Maybe you got a park near you that you love to go for walks to? It could be really special to have your engagement session there as it will be a meaningful reminder of your life before marriage.
+Last but not least in our list are town and city parks. We love parks as it looks different all year round, and even shooting in the same park during different weather or season can look completely different because of the changing nature. Maybe you got a park near you that you love to go for walks to? It could be really special to have your engagement session there as it will be a meaningful reminder of your life before marriage.
 
 ![black and white photo of a couple in Whatman park, Maidstone](/images/uploads/jess-matt-engagement-session-whatman-park-032_websize.jpg "Couple in Whatman Park, Maidstone ")
 
