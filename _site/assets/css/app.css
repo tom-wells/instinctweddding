@@ -693,6 +693,8 @@ footer {
     .post-container .post-content p {
       max-width: 720px;
       line-height: 1.4; }
+      .post-container .post-content p a {
+        color: #FFB444; }
     .post-container .post-content img {
       max-width: 100%;
       padding: 20px 0 20px 0; }
@@ -1069,7 +1071,7 @@ footer {
     footer h3 {
       font-size: 36px; }
     footer a {
-      font-size: 24px; }
+      font-size: 18px; }
     footer .media {
       position: relative;
       text-align: center; }
@@ -1086,7 +1088,9 @@ footer {
 
   .post-container {
     margin-top: 0;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px; }
     .post-container .go-archive h2 {
       font-size: 24px;
       max-width: 100%; }

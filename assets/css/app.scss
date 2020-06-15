@@ -1047,7 +1047,9 @@ footer {
             max-width:720px;
             line-height:$line-height-global;
             
-    
+            a {
+                color:#FFB444;
+            }
         }
             img {
                 max-width:100%;
@@ -1657,7 +1659,7 @@ footer {
         font-size:36px;
     }
     a{
-        font-size:24px;
+        font-size:18px;
     }
     .media {
         position:relative;
@@ -1685,6 +1687,11 @@ footer {
     .post-container {
         margin-top:0;
         margin-bottom:$line-global*2;
+        padding-left:$line-global;
+        padding-right:$line-global;
+
+        
+       
         .go-archive h2 {
             font-size:$sub-header-size;
             max-width:100%;
@@ -1706,6 +1713,7 @@ footer {
             text-align: center;
 
          }
+       
     }
 
    
