@@ -439,7 +439,7 @@ header {
   top: 0;
   left: 0;
   width: 10000vw;
-  height: 75vh;
+  height: 100vh;
   transition: left 2s ease-in-out; }
 
 .quote-holder div {
@@ -449,12 +449,19 @@ header {
 .testimonal {
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  width: 720px;
   font-size: 24px;
   line-height: 40px; }
 
 .client {
-  text-align: center; }
+  text-align: center;
+  font-size: 24px; }
+
+.prev,
+.next {
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none; }
 
 .prev {
   position: absolute;
