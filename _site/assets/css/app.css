@@ -363,7 +363,7 @@ header {
 
 .about {
   max-width: 100%;
-  max-height: 100vh;
+  max-height: 100%;
   position: relative; }
   .about .mobile-about {
     display: none; }
@@ -419,7 +419,8 @@ header {
   max-width: 100vw;
   position: relative; }
 
-.image-slideshow {
+.image-slideshow,
+.quote-slideshow {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -432,6 +433,38 @@ header {
   width: 10000vw;
   height: 75vh;
   transition: left 2s ease-in-out; }
+
+.quote-holder {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10000vw;
+  height: 75vh;
+  transition: left 2s ease-in-out; }
+
+.quote-holder div {
+  float: left;
+  width: 100vw; }
+
+.testimonal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  font-size: 24px;
+  line-height: 40px; }
+
+.client {
+  text-align: center; }
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 40px; }
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 40px; }
 
 .holder div {
   float: left;
@@ -555,7 +588,7 @@ header {
     .awards .award-badges img {
       padding-left: 40px;
       padding-right: 40px;
-      width: 250px; }
+      width: 200px; }
 
 .contact {
   max-width: 100%;
