@@ -401,15 +401,16 @@ header {
     .about .about-text p {
       margin: 10px 0 10px 0; }
     .about .about-text .about-contact {
-      width: 480px;
+      max-width: 400px;
       margin-top: 20px;
+      margin-bottom: 40px;
       background-color: #000000;
       text-align: center;
       padding: 10px;
       color: #FFFFFF;
       text-decoration: none; }
     .about .about-text div {
-      width: 500px; }
+      max-width: 450px; }
       .about .about-text div h2 {
         color: #000000;
         margin-bottom: 20px;
@@ -419,12 +420,23 @@ header {
   max-width: 100vw;
   position: relative; }
 
+.quote-section {
+  max-width: 100vw;
+  position: relative; }
+  .quote-section h2 {
+    text-align: center;
+    padding-top: 160px;
+    text-transform: uppercase; }
+
 .image-slideshow,
 .quote-slideshow {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 75vh; }
+
+.quote-slideshow {
+  height: 100vh; }
 
 .holder {
   position: relative;
@@ -439,17 +451,22 @@ header {
   top: 0;
   left: 0;
   width: 10000vw;
-  height: 100vh;
-  transition: left 2s ease-in-out; }
+  height: 100%;
+  transition: left 2s ease-in-out;
+  padding-bottom: 40px; }
 
 .quote-holder div {
   float: left;
-  width: 100vw; }
+  width: 100vw;
+  height: 100%; }
 
 .testimonal {
+  display: flex;
+  align-items: center;
+  height: 80%;
   margin-left: auto;
   margin-right: auto;
-  width: 720px;
+  max-width: 620px;
   font-size: 24px;
   line-height: 40px; }
 
@@ -461,7 +478,9 @@ header {
 .next {
   text-transform: uppercase;
   color: #000000;
-  text-decoration: none; }
+  text-decoration: none;
+  padding: 20px;
+  border: #000000 solid 2px; }
 
 .prev {
   position: absolute;
@@ -1005,6 +1024,22 @@ footer {
 
   .slideshow {
     display: none; }
+
+  .testimonal {
+    font-size: 18px;
+    margin: 40px;
+    line-height: 1.4; }
+
+  .next {
+    right: 20px; }
+
+  .prev {
+    left: 20px; }
+
+  .prev, .next {
+    padding: 10px;
+    border: #000000 solid 2px;
+    top: 90%; }
 
   .prices {
     height: 100%;
