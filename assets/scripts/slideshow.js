@@ -47,18 +47,18 @@ nextSlide()
 
 
 
-  $('.next').on('click', function(e) {
-    clearInterval(autoSlide)
-    e.preventDefault();
-    nextSlide()
-  })
+  // $('.next').on('click', function(e) {
+  //   clearInterval(autoSlide)
+  //   e.preventDefault();
+  //   nextSlide()
+  // })
   
-  $('.prev').on('click', function(e) {
-     clearInterval(autoSlide)
-     e.preventDefault();
-    previousSlide()
-  })
+  // $('.prev').on('click', function(e) {
+  //    clearInterval(autoSlide)
+  //    e.preventDefault();
+  //   previousSlide()
+  // })
   
-  var slideNumber = currentSlide + 1 
-  $('.steps').text(slideNumber + '/' +totalSlides)
+  // var slideNumber = currentSlide + 1 
+  // $('.steps').text(slideNumber + '/' +totalSlides)
  
