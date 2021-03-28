@@ -917,7 +917,7 @@ header {
             padding-left:$line-global*2;
             padding-right:$line-global*2;
 
-            width:200px;
+            width:150px;
         }
     }
    
@@ -1329,6 +1329,7 @@ footer {
 }
 
 
+
 @media (max-width: 840px) {
  header {
      display:none;
@@ -1541,7 +1542,7 @@ margin-bottom:$line-global*2;
      }
 
      div {
-         width:300px;
+         width:450px;
          height:100%;
          position:relative;
          padding:$line-global*2 0 $line-global*2 0;
@@ -1629,15 +1630,20 @@ top:90%;
         position:relative;
         height:100%;
 
+
     div  {   
         margin-left:$line-global/2;
         margin-right:$line-global/2;
         grid-template-columns:1fr;
         margin-top:0;
 
+
         .package-info {
+            width:100%;
+
             padding-left:0;
             img {
+                width:100%;
                 padding-top:$line-global;
             }
             .breaker {
@@ -1683,22 +1689,27 @@ h3,li {
 
 
 // awards {
+
+
     .awards {
         padding-top:$line-global*7;
      
         .award-badges{
             display:flex;
             width:100%;
-            flex-direction:column;
+            flex-direction:row;
             align-items:center;
+            justify-content:center;
             margin-top:$line-global*4;
             img {
                 padding:0 0 $line-global 0;
-                width:200px;
+                width:150px;
             }
         }
        
     }
+
+    
 
 //contact 
 
@@ -1879,6 +1890,27 @@ footer {
 }
 
 @media (max-width:550px) {
+    .about {
+    .about-container {
+        div {
+            width:300px;
+        }
+    }
+}
+    
+    .awards {
+     
+        .award-badges{
+           
+            flex-direction:column;
+            
+            img {
+                width:150px;
+            }
+        }
+       
+    }
+    
     .mobile-hero {
         h1 {
             display:none;
