@@ -1097,9 +1097,10 @@ footer {
             padding-bottom: 20px; }
           .prices .price-background .price-image-holder div ul {
             display: flex;
-            flex-direction: column;
-            width: 100%;
-            padding-left: 10px; }
+            margin-left: 15px;
+            margin-right: 15px;
+            padding-left: 10px;
+            flex-direction: column; }
           .prices .price-background .price-image-holder div h3, .prices .price-background .price-image-holder div li {
             color: #000000; }
           .prices .price-background .price-image-holder div li {
@@ -1260,4 +1261,7 @@ footer {
     display: block;
     text-align: center; }
     .image-container .image-grid img {
-      padding-bottom: 20px; } }
+      padding-bottom: 20px; }
+
+  .about .about-container .about-text .about-contact {
+    width: 250px; } }

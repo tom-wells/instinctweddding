@@ -1662,13 +1662,13 @@ top:75%;
     }
     ul {
         display: flex;
-
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 10px;
 flex-direction: column;
 
 
-width: 100%;
 
-padding-left: 10px;
     }
 
      
@@ -1919,6 +1919,7 @@ footer {
     div {
     margin-left:$line-global/2;
         margin-right:$line-global/2;
+       
 }
 }
 }
@@ -1967,4 +1968,17 @@ footer {
             }
         }
         }
+
+        .about {
+
+        .about-container {
+
+        .about-text {
+
+        .about-contact {
+            width: 250px;
     }
+}
+        }
+    }
+}
