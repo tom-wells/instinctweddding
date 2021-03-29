@@ -428,15 +428,17 @@ header {
     padding-top: 160px;
     text-transform: uppercase; }
 
-.image-slideshow,
-.quote-slideshow {
+.image-slideshow {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 75vh; }
 
 .quote-slideshow {
-  height: 75vh; }
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 50vh; }
 
 .holder {
   position: relative;
@@ -451,19 +453,18 @@ header {
   top: 0;
   left: 0;
   width: 10000vw;
-  height: 75vh;
+  height: 100%;
   transition: left 2s ease-in-out;
   padding-bottom: 40px; }
 
 .quote-holder div {
   float: left;
   width: 100vw;
-  height: 100%; }
+  height: 75vh; }
 
 .testimonal {
   display: flex;
   align-items: center;
-  height: 80%;
   margin-left: auto;
   margin-right: auto;
   max-width: 620px;
@@ -1026,8 +1027,10 @@ footer {
     display: none; }
 
   .testimonal {
+    height: 75%;
     font-size: 18px;
-    margin: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
     line-height: 1.4; }
 
   .next {
@@ -1215,9 +1218,6 @@ footer {
 .archive {
   margin-top: 0px; }
 
-.quote-slideshow {
-  height: 25vh; }
-
 .quote-holder {
   height: 100%; }
 
@@ -1242,7 +1242,7 @@ footer {
     height: 50vh; }
 
   .next, .prev {
-    top: 70%; }
+    top: 80%; }
 
   .testimonal {
     max-width: 300px;
