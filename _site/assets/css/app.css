@@ -436,7 +436,7 @@ header {
   height: 75vh; }
 
 .quote-slideshow {
-  height: 100vh; }
+  height: 75vh; }
 
 .holder {
   position: relative;
@@ -451,7 +451,7 @@ header {
   top: 0;
   left: 0;
   width: 10000vw;
-  height: 100%;
+  height: 75vh;
   transition: left 2s ease-in-out;
   padding-bottom: 40px; }
 
@@ -1039,7 +1039,7 @@ footer {
   .prev, .next {
     padding: 10px;
     border: #000000 solid 2px;
-    top: 90%; }
+    top: 75%; }
 
   .prices {
     height: 100%;
@@ -1075,12 +1075,9 @@ footer {
         position: relative;
         height: 100%; }
         .prices .price-background .price-image-holder div {
-          margin-left: 10px;
-          margin-right: 10px;
           grid-template-columns: 1fr;
           margin-top: 0; }
           .prices .price-background .price-image-holder div .package-info {
-            width: 100%;
             padding-left: 0; }
             .prices .price-background .price-image-holder div .package-info img {
               width: 100%;
@@ -1218,9 +1215,38 @@ footer {
 .archive {
   margin-top: 0px; }
 
+.quote-slideshow {
+  height: 25vh; }
+
+.quote-holder {
+  height: 100%; }
+
+.testimonal {
+  height: 50%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.next, .prev {
+  top: 60%; }
+
 @media (max-width: 550px) {
   .about .about-container div {
     width: 300px; }
+
+  .price-background .price-image-holder div {
+    margin-left: 10px;
+    margin-right: 10px; }
+
+  .quote-slideshow {
+    height: 50vh; }
+
+  .next, .prev {
+    top: 70%; }
+
+  .testimonal {
+    max-width: 300px;
+    text-align: center; }
 
   .awards .award-badges {
     flex-direction: column; }

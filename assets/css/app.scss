@@ -671,7 +671,7 @@ header {
   }
 
   .quote-slideshow {
-    height: 100vh;
+    height: 75vh;
   }
   
   .holder {
@@ -688,7 +688,7 @@ header {
     top: 0;
     left: 0;
    width: 10000vw;
-    height: 100%;
+    height: 75vh;
    transition: left 2s ease-in-out;
    padding-bottom:$line-global*2;
 
@@ -1581,7 +1581,7 @@ margin-bottom:$line-global*2;
 .prev,.next {
 padding:$line-global/2;
 border: $black solid 2px;
-top:90%;
+top:75%;
 }
 
 
@@ -1632,14 +1632,12 @@ top:90%;
 
 
     div  {   
-        margin-left:$line-global/2;
-        margin-right:$line-global/2;
+        
         grid-template-columns:1fr;
         margin-top:0;
 
 
         .package-info {
-            width:100%;
 
             padding-left:0;
             img {
@@ -1889,6 +1887,25 @@ footer {
     margin-top: 0px;
 }
 
+.quote-slideshow {
+    height:25vh;
+}
+.quote-holder {
+    height:100%;
+}
+
+.testimonal {
+   
+    height: 50%;    
+      max-width:400px;
+    margin-left:auto;
+    margin-right:auto;      
+  }
+
+  .next,.prev {
+      top:60%;
+  }
+
 @media (max-width:550px) {
     .about {
     .about-container {
@@ -1897,7 +1914,28 @@ footer {
         }
     }
 }
+.price-background {
+.price-image-holder {
+    div {
+    margin-left:$line-global/2;
+        margin-right:$line-global/2;
+}
+}
+}
+
+.quote-slideshow {
+    height: 50vh;
+  }
+
+.next,.prev {
+    top:70%;
+}
     
+.testimonal {
+   
+      max-width:300px;
+      text-align:center;
+}
     .awards {
      
         .award-badges{
