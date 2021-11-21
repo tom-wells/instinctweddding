@@ -1072,7 +1072,11 @@ footer {
 }
 
 // Post Styles 
+.v-padding {
+    padding-top:$line-global*3;
+    padding-bottom:$line-global*3;
 
+}
 
 .post-container {
     display:flex;
@@ -1081,7 +1085,7 @@ footer {
     margin:$line-global*7 auto 0 auto;
     padding-left:$line-global*2;
     padding-right:$line-global*2;
-   
+    
     .post-content {
         width:720px;
         height:100%;

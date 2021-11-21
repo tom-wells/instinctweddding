@@ -717,6 +717,10 @@ footer {
       padding-left: 80px;
       margin-top: 93px; }
 
+.v-padding {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
 .post-container {
   display: flex;
   max-width: 100%;
