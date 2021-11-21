@@ -1073,9 +1073,7 @@ footer {
 
 // Post Styles 
 .v-padding {
-    padding-top:$line-global*3;
-    padding-bottom:$line-global*3;
-
+        height:100vh;
 }
 
 .post-container {
@@ -1791,7 +1789,10 @@ footer {
     
 
     // posts 
-
+    .v-padding{
+        height:100vh;
+ 
+    }
     .post-container {
         margin-top:0;
         margin-bottom:$line-global*2;

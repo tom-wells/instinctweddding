@@ -718,8 +718,7 @@ footer {
       margin-top: 93px; }
 
 .v-padding {
-  padding-top: 60px;
-  padding-bottom: 60px; }
+  height: 100vh; }
 
 .post-container {
   display: flex;
@@ -1168,6 +1167,9 @@ footer {
         text-align: center; }
       footer .links-right .main-titles {
         display: block; }
+
+  .v-padding {
+    height: 100vh; }
 
   .post-container {
     margin-top: 0;
