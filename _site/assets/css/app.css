@@ -1060,19 +1060,24 @@ footer {
 
   .prices {
     height: 100%;
-    margin-left: 0;
-    margin-right: 0; }
+    margin-left: 20px;
+    margin-right: 20px; }
     .prices h2 {
       padding-top: 160px; }
     .prices .add-ons {
+      bottom: -100px;
       color: #000000;
       position: relative;
-      width: 100%; }
+      max-width: 100%; }
       .prices .add-ons h2 {
         padding-top: 40px;
         padding-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px; }
+        padding-left: 15px;
+        padding-right: 15px; }
+      .prices .add-ons h3 {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px; }
       .prices .add-ons ul {
         padding-left: 0; }
     .prices .add-on-prices {
