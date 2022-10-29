@@ -869,6 +869,18 @@ header {
         h2 {
             font-size:$sub-header-size;
         }
+        h3 {
+            width:450px;
+            text-align:center;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:$line-global;
+            
+            a {
+                text-decoration: underline;
+                color:#FFB444;
+            }
+        }
     }
 
     .add-on-prices {
@@ -1315,6 +1327,8 @@ footer {
    
 
     .prices {
+        .add-ons {
+bottom:-200px;        }
         
         .price-background {
             height:1000px;
@@ -1328,7 +1342,7 @@ footer {
         }
     }
   
-   
+  
 }
 
 
@@ -1599,6 +1613,7 @@ top:75%;
         padding-top:160px;
     }
     .add-ons {
+        
         h2 {
             padding-top:$line-global*2;
             padding-bottom:$line-global;

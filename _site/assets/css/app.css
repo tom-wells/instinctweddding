@@ -585,6 +585,15 @@ header {
     bottom: 0; }
     .prices .add-ons h2 {
       font-size: 24px; }
+    .prices .add-ons h3 {
+      width: 450px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px; }
+      .prices .add-ons h3 a {
+        text-decoration: underline;
+        color: #FFB444; }
   .prices .add-on-prices {
     width: 100%;
     display: flex;
@@ -861,6 +870,8 @@ footer {
       padding-left: 80px;
       padding-right: 80px; } }
 @media (max-width: 1100px) {
+  .prices .add-ons {
+    bottom: -200px; }
   .prices .price-background {
     height: 1000px; }
   .prices .price-image-holder {
